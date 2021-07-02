@@ -1,0 +1,156 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|bcd00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603988322
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604359580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\oscint00.vhdl":1616252947
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\div00.vhdl":1616431759
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\div01.vhdl":1622752217
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\packageosc00.vhdl":1622751953
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\osc00.vhdl":1622752276
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\ac800.vhdl":1622748556
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\ac1200.vhdl":1622748575
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\checkCode00.vhdl":1622748635
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\coderNibbles00.vhdl":1622748648
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\compadd00.vhdl":1622748665
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\contIter00.vhdl":1622748685
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\contring00.vhdl":1622748697
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\init00.vhdl":1622748751
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\loadData00.vhdl":1622748768
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\mux00.vhdl":1622748783
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\pc00.vhdl":1622748838
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\progMem00.vhdl":1622748858
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\shift800.vhdl":1622748869
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\shift1200.vhdl":1622748879
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\sust00.vhdl":1622748889
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\uc00.vhdl":1622748909
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\packagebcd00.vhdl":1622751775
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\bcd00\\bcd0\\source\\bcd00.vhdl":1622752360
+0 "C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\oscint00.vhdl" vhdl
+2 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl" vhdl
+3 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl" vhdl
+4 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\packageosc00.vhdl" vhdl
+5 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\osc00.vhdl" vhdl
+6 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\ac800.vhdl" vhdl
+7 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\ac1200.vhdl" vhdl
+8 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\checkCode00.vhdl" vhdl
+9 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\coderNibbles00.vhdl" vhdl
+10 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\compadd00.vhdl" vhdl
+11 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\contIter00.vhdl" vhdl
+12 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\contring00.vhdl" vhdl
+13 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl" vhdl
+14 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\loadData00.vhdl" vhdl
+15 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\mux00.vhdl" vhdl
+16 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\pc00.vhdl" vhdl
+17 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl" vhdl
+18 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl" vhdl
+19 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl" vhdl
+20 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl" vhdl
+21 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\uc00.vhdl" vhdl
+22 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\packagebcd00.vhdl" vhdl
+23 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\bcd00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 1 2 3 4 
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 5 13 14 20 10 18 19 6 7 11 21 16 8 17 12 9 15 22 
+
+# Dependency Lists (Users Of)
+0 -1
+1 5 
+2 5 
+3 5 
+4 5 
+5 23 
+6 23 
+7 23 
+8 23 
+9 23 
+10 23 
+11 23 
+12 23 
+13 23 
+14 23 
+15 23 
+16 23 
+17 23 
+18 23 
+19 23 
+20 23 
+21 23 
+22 23 
+23 -1
+
+# Design Unit to File Association
+arch work oscint00 oscint0 1
+module work oscint00 1
+arch work div00 div0 2
+module work div00 2
+arch work div01 div0 3
+module work div01 3
+arch work osc00 osc0 5
+module work osc00 5
+arch work ac800 ac80 6
+module work ac800 6
+arch work ac1200 ac120 7
+module work ac1200 7
+arch work checkcode00 checkcode0 8
+module work checkcode00 8
+arch work codernibbles00 codernibbles0 9
+module work codernibbles00 9
+arch work compadd00 compadd0 10
+module work compadd00 10
+arch work contiter00 contiter0 11
+module work contiter00 11
+arch work contring00 contring0 12
+module work contring00 12
+arch work init00 init0 13
+module work init00 13
+arch work loaddata00 loaddata0 14
+module work loaddata00 14
+arch work mux00 mux0 15
+module work mux00 15
+arch work pc00 pc0 16
+module work pc00 16
+arch work progmem00 progmem0 17
+module work progmem00 17
+arch work shift800 shift80 18
+module work shift800 18
+arch work shift1200 shift120 19
+module work shift1200 19
+arch work sust00 sust0 20
+module work sust00 20
+arch work uc00 uc0 21
+module work uc00 21
+arch work bcd00 bcd0 23
+module work bcd00 23

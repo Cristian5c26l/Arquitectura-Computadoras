@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/5/2021 20:56:06
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/adder4bit00; Project name: adder4bit00
+prj_project new -name "adder4bit00" -impl "adder4bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/adder4bit00/adder4bit00.vhdl"
+prj_src remove "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/adder4bit00/adder4bit00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/adder4bit00/xor00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/adder4bit00/and00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/adder4bit00/packageha00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/adder4bit00/ha00.vhdl"
+#Stop recording: 3/5/2021 21:48:25

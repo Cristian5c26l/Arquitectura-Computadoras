@@ -1,0 +1,30 @@
+#Start recording tcl command: 3/30/2021 17:56:06
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00; Project name: word00
+prj_project new -name "word00" -impl "word0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/div00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/osc00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/contring00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/coder00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/packageword00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word00.vhdl"
+prj_run Export -impl word0 -task Jedecgen
+prj_run Export -impl word0 -task Jedecgen
+prj_run Export -impl word0 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word0/word0.xcf"
+prj_src add -exclude "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word0/word0.xcf"
+prj_src enable "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word0/word0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word0/word0.xcf"
+pgr_project close
+prj_run Export -impl word0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word0/word0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word0/word0.xcf"
+pgr_project close
+prj_run Export -impl word0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word0/word0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 2/Practicas/word00/word0/word0.xcf"
+pgr_project close
+prj_run Export -impl word0 -task Jedecgen
+#Stop recording: 3/30/2021 19:56:18

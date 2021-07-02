@@ -1,0 +1,468 @@
+
+            Lattice Mapping Report File for Design Module 'bcd00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     bcd00_bcd0.ngd -o bcd00_bcd0_map.ncd -pr bcd00_bcd0.prf -mp bcd00_bcd0.mrp
+     -lpf C:/Users/crist/Desktop/Semestre20212/Arquitectura de
+     computadoras/Parcial 3/Practicas/bcd00/bcd0/bcd00_bcd0_synplify.lpf -lpf
+     C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial
+     3/Practicas/bcd00/bcd00.lpf -c 0 -gui 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  06/03/21  17:14:46
+
+Design Summary
+--------------
+
+   Number of registers:    200 out of  7209 (3%)
+      PFU registers:          189 out of  6864 (3%)
+      PIO registers:           11 out of   345 (3%)
+   Number of SLICEs:       188 out of  3432 (5%)
+      SLICEs as Logic/ROM:    188 out of  3432 (5%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         24 out of  3432 (1%)
+   Number of LUT4s:        355 out of  6864 (5%)
+      Number used as logic LUTs:        307
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       48
+      Number used as shift registers:     0
+   Number of PIO sites used: 75 + 4(JTAG) out of 115 (69%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  3
+     Net clk00_c: 98 loads, 98 rising, 0 falling (Driver: BD00/UD01/oscout )
+     Net clk01_c: 4 loads, 4 rising, 0 falling (Driver: BD00/UD02/oscout )
+
+                                    Page 1
+
+
+
+
+Design:  bcd00                                         Date:  06/03/21  17:14:46
+
+Design Summary (cont)
+---------------------
+     Net BD00/sclk: 26 loads, 26 rising, 0 falling (Driver: BD00/UD00/OSCInst0 )
+     
+   Number of Clock Enables:  12
+     Net outDataLD_1ce[0]: 8 loads, 0 LSLICEs
+     Net outFlagPC0_c: 2 loads, 2 LSLICEs
+     Net BD08/aux_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net BD07/aux_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net BD06/outACs12_1ce[10]: 6 loads, 6 LSLICEs
+     Net BD05/outACs8_1ce[1]: 4 loads, 4 LSLICEs
+     Net BD04/N_62: 1 loads, 1 LSLICEs
+     Net BD04/outAC12ca_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net BD04/outAC12ca_1ce[0]: 6 loads, 6 LSLICEs
+     Net BD03/aux_0_sqmuxa: 6 loads, 6 LSLICEs
+     Net BD03/outAC12su_1ce[0]: 6 loads, 6 LSLICEs
+     Net BD01/aux1_0_sqmuxa_i: 1 loads, 1 LSLICEs
+   Number of LSRs:  16
+     Net outCode0_c[0]: 2 loads, 2 LSLICEs
+     Net outCode0_c[2]: 6 loads, 6 LSLICEs
+     Net outFlagMP0_c: 4 loads, 4 LSLICEs
+     Net BD11/outpc12: 3 loads, 3 LSLICEs
+     Net reset0_c: 6 loads, 6 LSLICEs
+     Net BD08.aux: 1 loads, 1 LSLICEs
+     Net BD07.aux: 1 loads, 1 LSLICEs
+     Net pshift12.un2_opcodes12_0_o2: 1 loads, 1 LSLICEs
+     Net BD04/aux: 1 loads, 1 LSLICEs
+     Net BD04/un2_opcodeca_i_o2: 1 loads, 1 LSLICEs
+     Net BD03/aux: 1 loads, 1 LSLICEs
+     Net BD03/fb: 1 loads, 1 LSLICEs
+     Net BD01/aux0_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net BD01/fb: 1 loads, 1 LSLICEs
+     Net BD00/UD02/oscout_0_sqmuxa_RNIV7S8: 12 loads, 12 LSLICEs
+     Net BD00/UD01/un1_oscout56_7_1_RNIR3PN: 12 loads, 12 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net outFlagMP0_c: 28 loads
+     Net outCode0_c[2]: 26 loads
+     Net outCode0_c[0]: 18 loads
+     Net outCode0_c[1]: 18 loads
+     Net BD03.outAC12su_cl[11]: 13 loads
+     Net BD04.outAC12ca_cl[11]: 13 loads
+     Net reset0_c: 13 loads
+     Net BD00/UD02/oscout_0_sqmuxa_RNIV7S8: 12 loads
+     Net BD06/outACs12_cl[11]: 12 loads
+     Net outAC120_c[2]: 12 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+                                    Page 2
+
+
+
+
+Design:  bcd00                                         Date:  06/03/21  17:14:46
+
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| outFlagI80          | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| clk00               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCD0[6]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCD0[5]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCD0[4]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCD0[3]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCD0[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCD0[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outBCD0[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outTransist0[3]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outTransist0[2]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outTransist0[1]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outTransist0[0]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[7]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[6]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[5]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[4]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[3]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC80[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[11]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[10]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[9]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  bcd00                                         Date:  06/03/21  17:14:46
+
+IO (PIO) Attributes (cont)
+--------------------------
+| outAC120[8]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[7]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[6]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[5]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[4]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outAC120[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[3]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[2]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[1]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outPC0[0]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagCode0        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outCode0[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outCode0[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outCode0[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outCode0[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outcontIter0[3]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outcontIter0[2]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outcontIter0[1]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outcontIter0[0]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagPC0          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagIterB0       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagMP0          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagIterA0       | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagAC120        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagAC80         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 4
+
+
+
+
+Design:  bcd00                                         Date:  06/03/21  17:14:46
+
+IO (PIO) Attributes (cont)
+--------------------------
+| outFlagIter120      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagI120         | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| enable0             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| reset0              | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[7]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[6]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[5]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[4]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[3]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[2]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[1]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inData0[0]          | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| cdiv01[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv01[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv01[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv01[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv01[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk01               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block BD00/UD01/VCC undriven or does not drive anything - clipped.
+Block BD00/UD02/VCC undriven or does not drive anything - clipped.
+Block BD01/VCC undriven or does not drive anything - clipped.
+Block BD01/GND undriven or does not drive anything - clipped.
+Block BD02/VCC undriven or does not drive anything - clipped.
+Block BD02/GND undriven or does not drive anything - clipped.
+
+                                    Page 5
+
+
+
+
+Design:  bcd00                                         Date:  06/03/21  17:14:46
+
+Removed logic (cont)
+--------------------
+Block BD03/VCC undriven or does not drive anything - clipped.
+Block BD03/GND undriven or does not drive anything - clipped.
+Block BD04/VCC undriven or does not drive anything - clipped.
+Block BD04/GND undriven or does not drive anything - clipped.
+Block BD05/VCC undriven or does not drive anything - clipped.
+Block BD05/GND undriven or does not drive anything - clipped.
+Block BD06/VCC undriven or does not drive anything - clipped.
+Block BD06/GND undriven or does not drive anything - clipped.
+Block BD07/GND undriven or does not drive anything - clipped.
+Block BD07/VCC undriven or does not drive anything - clipped.
+Block BD08/GND undriven or does not drive anything - clipped.
+Block BD08/VCC undriven or does not drive anything - clipped.
+Block BD09/GND undriven or does not drive anything - clipped.
+Block BD09/VCC undriven or does not drive anything - clipped.
+Block BD10/GND undriven or does not drive anything - clipped.
+Block BD11/VCC undriven or does not drive anything - clipped.
+Block BD11/GND undriven or does not drive anything - clipped.
+Block BD12/GND undriven or does not drive anything - clipped.
+Block BD12/VCC undriven or does not drive anything - clipped.
+Block BD13/VCC undriven or does not drive anything - clipped.
+Block BD14/VCC undriven or does not drive anything - clipped.
+Block BD16/GND undriven or does not drive anything - clipped.
+Signal reset0_c_i was merged into signal reset0_c
+Signal outCode0_c_i[2] was merged into signal outCode0_c[2]
+Signal BD00/UD00/GND undriven or does not drive anything - clipped.
+Signal BD00/UD01/GND undriven or does not drive anything - clipped.
+Signal BD00/UD02/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal BD00/UD00/OSCInst0_SEDSTDBY undriven or does not drive anything -
+     clipped.
+Signal BD00/UD01/un1_sdiv_s_21_0_S1_0 undriven or does not drive anything -
+     clipped.
+Signal BD00/UD01/un1_sdiv_s_21_0_COUT_0 undriven or does not drive anything -
+     clipped.
+Signal BD00/UD01/un1_sdiv_cry_0_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal BD00/UD01/N_1 undriven or does not drive anything - clipped.
+Signal BD00/UD02/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal BD00/UD02/N_1 undriven or does not drive anything - clipped.
+Signal BD00/UD02/un1_sdiv_s_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal BD00/UD02/un1_sdiv_s_21_0_COUT undriven or does not drive anything -
+     clipped.
+Block reset0_pad_RNI7EK5 was optimized away.
+Block BD13/outcodePM_1_RNI25TC[2] was optimized away.
+Block BD00/UD00/GND was optimized away.
+Block BD00/UD01/GND was optimized away.
+Block BD00/UD02/GND was optimized away.
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+
+                                    Page 6
+
+
+
+
+Design:  bcd00                                         Date:  06/03/21  17:14:46
+
+OSC Summary (cont)
+------------------
+  OSC Instance Name:                                BD00/UD00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     BD00/sclk
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: BD00/UD00/OSCInst0
+         Type: OSCH
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 61 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 7
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.

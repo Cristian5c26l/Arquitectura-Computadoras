@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>reset0_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>reset0</Dynamic>
+            <Dynamic>54</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>LC00/OSC00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>LC00/OSC00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl&quot;:28:13:28:16|Signal srsc is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Signal srsc is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdData00.vhdl&quot;:42:3:42:4|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdData00.vhdl</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl&quot;:27:2:27:3|Pruning register bit 6 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 6 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl&quot;:28:13:28:16|Signal sRSc is floating; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Signal sRSc is floating; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL167 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl&quot;:68:2:68:5|Input rscd of instance LC05 is floating</Dynamic>
+            <Navigation>CL167</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Input rscd of instance LC05 is floating</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl&quot;:27:4:27:5|Removing register 'RWcd' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing register 'RWcd' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl&quot;:27:4:27:5|Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 1\practicas\osc00vhdl\div00.vhdl&quot;:21:2:21:3|Found inferred clock oscint00|osc_int_inferred_clock which controls 23 sequential elements including LC00.OSC01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 1\practicas\osc00vhdl\div00.vhdl</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock oscint00|osc_int_inferred_clock which controls 23 sequential elements including LC00.OSC01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcdconfig00txt.vhdl&quot;:38:12:38:15|ROM ENc_cnst[7:0] (in view: work.lcdconfig00(lcdconfig0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcdconfig00txt.vhdl</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>38</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>ROM ENc_cnst[7:0] (in view: work.lcdconfig00(lcdconfig0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcddata00.vhdl&quot;:55:21:55:28|ROM outWordd_2[6:5] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcddata00.vhdl</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>ROM outWordd_2[6:5] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcddata00.vhdl&quot;:55:21:55:28|ROM outWordd_2[3:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcddata00.vhdl</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>ROM outWordd_2[3:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcddata00.vhdl&quot;:55:21:55:28|ROM outWordd_2[6:5] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcddata00.vhdl</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>ROM outWordd_2[6:5] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcddata00.vhdl&quot;:55:21:55:28|ROM outWordd_2[3:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ldc00\lcddata00.vhdl</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>ROM outWordd_2[3:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net LC00.OSC00.sclk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net LC00.OSC00.sclk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

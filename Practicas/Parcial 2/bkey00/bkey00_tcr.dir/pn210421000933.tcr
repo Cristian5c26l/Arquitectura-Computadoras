@@ -1,0 +1,24 @@
+#Start recording tcl command: 4/20/2021 23:25:00
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00; Project name: bkey00
+prj_project new -name "bkey00" -impl "bkey0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/div00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/osc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/packageosc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/source"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/source/div00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/source/osc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/source/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/source/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/contRing00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/coder00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/packagekey00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/key00.vhdl"
+prj_run Export -impl bkey0 -task Jedecgen
+prj_run Export -impl bkey0 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/bkey0.xcf"
+prj_src add -exclude "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/bkey0.xcf"
+prj_src enable "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/bkey0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/bkey0.xcf"
+pgr_project close
+prj_run Export -impl bkey0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/bkey0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/bkey00/bkey0/bkey0.xcf"
+pgr_project close
+#Stop recording: 4/21/2021 00:09:33

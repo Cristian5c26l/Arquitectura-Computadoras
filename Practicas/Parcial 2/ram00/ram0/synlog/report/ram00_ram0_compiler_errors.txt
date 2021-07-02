@@ -1,0 +1,3 @@
+@E: CD326 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram00.vhdl":48:1:48:4|Port inwordra of entity work.memram00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram00.vhdl":66:1:66:4|Port inwordram of entity work.muxram00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

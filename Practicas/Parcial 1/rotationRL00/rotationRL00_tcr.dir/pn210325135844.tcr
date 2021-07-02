@@ -1,0 +1,19 @@
+#Start recording tcl command: 3/25/2021 13:32:54
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/rotationRL00; Project name: rotationRL00
+prj_project new -name "rotationRL00" -impl "rotationRL0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/div00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/osc00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/rotationRL00/packageshiftRL00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/rotationRL00/shiftrotationRL00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/rotationRL00/topshiftrotationRL00.vhdl"
+prj_run Export -impl rotationRL0 -task Jedecgen
+prj_run Export -impl rotationRL0 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/rotationRL00/rotationRL0/rotationRL0.xcf"
+prj_src add -exclude "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/rotationRL00/rotationRL0/rotationRL0.xcf"
+prj_src enable "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/rotationRL00/rotationRL0/rotationRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/rotationRL00/rotationRL0/rotationRL0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/25/2021 13:58:44

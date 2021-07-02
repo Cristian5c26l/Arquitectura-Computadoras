@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  ram00  -multisrs  "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\synwork\ram00_ram0_comp.srs"  -osyn  "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\synwork\ram00_ram0_mult.srs"  -log  "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\synlog\ram00_ram0_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top ram00 -multisrs "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\synwork\ram00_ram0_comp.srs" -osyn "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\synwork\ram00_ram0_mult.srs" -log "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\synlog\ram00_ram0_multi_srs_gen.srr"
+rc:0 success:1 runtime:1
+file:..\synwork\ram00_ram0_comp.srs|io:i|time:1619623134|size:14665|exec:0|csum:7CABED7EF47D412C5C62A6D4C44E9783
+file:..\synwork\ram00_ram0_mult.srs|io:o|time:1619623136|size:4552|exec:0|csum:
+file:..\synlog\ram00_ram0_multi_srs_gen.srr|io:o|time:1619623136|size:1203|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603988322|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

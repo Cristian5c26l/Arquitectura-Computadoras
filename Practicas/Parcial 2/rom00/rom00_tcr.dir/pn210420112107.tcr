@@ -1,0 +1,15 @@
+#Start recording tcl command: 4/20/2021 08:32:05
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/rom00; Project name: rom00
+prj_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/rom00/rom00.ldf"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/rom00/rom00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/rom00/packagerom00.vhdl"
+prj_run Export -impl rom0 -task Jedecgen
+prj_run Export -impl rom0 -task Jedecgen
+prj_run Export -impl rom0 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/rom00/rom0/rom0.xcf"
+prj_src add -exclude "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/rom00/rom0/rom0.xcf"
+prj_src enable "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/rom00/rom0/rom0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/rom00/rom0/rom0.xcf"
+pgr_project close
+#Stop recording: 4/20/2021 11:21:07

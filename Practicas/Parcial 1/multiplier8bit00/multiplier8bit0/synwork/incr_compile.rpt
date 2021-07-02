@@ -1,0 +1,62 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : multiplier8bit0
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+3        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\multiplier8bit00.vhdl (2021-03-19 22:57:27, 2021-03-20 12:14:11)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 6
+MID:  lib.cell.view
+0        work.and00.and0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\multiplier8bit00.vhdl (2021-03-19 22:57:27, 2021-03-20 12:14:11) <-- (may instantiate this module)
+2        work.fa00.fa0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\multiplier8bit00.vhdl (2021-03-19 22:57:27, 2021-03-20 12:14:11) <-- (may instantiate this module)
+4        work.ha00.ha0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\multiplier8bit00.vhdl (2021-03-19 22:57:27, 2021-03-20 12:14:11) <-- (may instantiate this module)
+6        work.multiplier8bit00.multiplier8bit0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\multiplier8bit00.vhdl (2021-03-19 22:57:27, 2021-03-20 12:14:11) <-- (architecture and entity definition)
+8        work.or00.or0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\multiplier8bit00.vhdl (2021-03-19 22:57:27, 2021-03-20 12:14:11) <-- (may instantiate this module)
+11       work.xor00.xor0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\multiplier8bit00.vhdl (2021-03-19 22:57:27, 2021-03-20 12:14:11) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 19
+FID:  path (timestamp)
+0        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\and00.vhdl (2021-03-18 23:59:29)
+1        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\fa00.vhdl (2021-03-18 23:58:57)
+2        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\ha00.vhdl (2021-03-18 23:58:19)
+4        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\or00.vhdl (2021-03-18 23:54:14)
+5        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\packagefa00.vhdl (2021-03-18 23:50:17)
+6        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\packageha00.vhdl (2021-03-18 23:51:08)
+7        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\packagemultiplier8bit00.vhdl (2021-03-18 23:52:30)
+8        C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\xor00.vhdl (2021-03-18 23:53:13)
+9        C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+10       C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd (2020-10-29 10:20:44)
+11       C:\lscc\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 10:23:10)
+12       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 10:23:10)
+13       C:\lscc\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 17:26:20)
+14       C:\lscc\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 10:23:10)
+15       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 10:23:10)
+16       C:\lscc\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 10:23:10)
+17       C:\lscc\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 10:23:10)
+18       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 10:23:10)
+19       C:\lscc\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 10:23:10)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

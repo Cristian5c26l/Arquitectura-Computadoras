@@ -1,0 +1,123 @@
+---------------------------------------------------
+Report for cell alu00
+   Instance path: alu00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     127.00        100.0
+                                 IOLGC	      16.00        100.0
+                                  LUT4	     216.00        100.0
+                                 IOREG	         16        100.0
+                                 IOBUF	         39        100.0
+                                PFUREG	        112        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                xora00	          1        21.3
+                               xnora00	          1         7.3
+                                nora00	          1         7.1
+                                 osc00	          1        29.9
+                                 ora00	          1         6.2
+                                nota00	          1         7.1
+                               nanda00	          1         6.4
+                             buffera00	          1         3.4
+                                anda00	          1         7.2
+                                  ac00	          1         0.9
+---------------------------------------------------
+Report for cell anda00
+   Instance path: alu00/AL01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.17         7.2
+                                  LUT4	      16.00         7.4
+                                PFUREG	         12        10.7
+---------------------------------------------------
+Report for cell ora00
+   Instance path: alu00/AL02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.83         6.2
+                                  LUT4	      14.00         6.5
+                                PFUREG	         12        10.7
+---------------------------------------------------
+Report for cell xora00
+   Instance path: alu00/AL03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.00        21.3
+                                  LUT4	      48.00        22.2
+                                PFUREG	         12        10.7
+---------------------------------------------------
+Report for cell nanda00
+   Instance path: alu00/AL04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.17         6.4
+                                  LUT4	      15.00         6.9
+                                PFUREG	         12        10.7
+---------------------------------------------------
+Report for cell nora00
+   Instance path: alu00/AL05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.00         7.1
+                                  LUT4	      17.00         7.9
+                                PFUREG	         12        10.7
+---------------------------------------------------
+Report for cell xnora00
+   Instance path: alu00/AL06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.33         7.3
+                                  LUT4	      21.00         9.7
+                                PFUREG	         12        10.7
+---------------------------------------------------
+Report for cell nota00
+   Instance path: alu00/AL07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.00         7.1
+                                  LUT4	      17.00         7.9
+                                PFUREG	         12        10.7
+---------------------------------------------------
+Report for cell buffera00
+   Instance path: alu00/AL08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.33         3.4
+                                  LUT4	       7.00         3.2
+                                PFUREG	          4         3.6
+---------------------------------------------------
+Report for cell ac00
+   Instance path: alu00/AL09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         0.9
+                                  LUT4	       2.00         0.9
+                                PFUREG	          1         0.9
+---------------------------------------------------
+Report for cell osc00
+   Instance path: alu00/AL00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.00        29.9
+                                  LUT4	      51.00        23.6
+                                PFUREG	         23        20.5
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              oscint00	          1         0.0
+                                 div00	          1        29.9
+---------------------------------------------------
+Report for cell div00
+   Instance path: alu00/AL00/OSC01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      38.00        29.9
+                                  LUT4	      51.00        23.6
+                                PFUREG	         23        20.5
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell oscint00
+   Instance path: alu00/AL00/OSC00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

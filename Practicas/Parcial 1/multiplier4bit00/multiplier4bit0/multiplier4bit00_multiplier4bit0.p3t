@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "multiplier4bit00_multiplier4bit0.log"
+-o "multiplier4bit00_multiplier4bit0.csv"
+-pr "multiplier4bit00_multiplier4bit0.prf"

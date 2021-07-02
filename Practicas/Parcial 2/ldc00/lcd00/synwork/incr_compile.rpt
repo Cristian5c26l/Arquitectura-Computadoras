@@ -1,0 +1,71 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : lcd00
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+6        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl (2021-05-20 19:19:55, 2021-05-20 19:25:06)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+2        work.lcdconfig00.lcdconfig0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl (2021-05-20 19:19:55, 2021-05-20 19:25:06) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 22
+FID:  path (timestamp)
+0        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl (2021-03-22 10:49:19)
+1        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\osc00.vhdl (2021-03-22 10:49:43)
+2        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\oscint00.vhdl (2021-03-20 09:09:07)
+3        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\packageosc00.vhdl (2021-03-22 10:49:30)
+4        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl (2021-05-19 21:52:36)
+5        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdData00.vhdl (2021-05-20 19:19:55)
+7        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdcontconfig00.vhdl (2021-05-19 20:06:52)
+8        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdmux00.vhdl (2021-05-20 19:19:55)
+9        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\packagelcd00.vhdl (2021-05-20 11:57:57)
+10       C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl (2021-05-20 11:57:49)
+11       C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+12       C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd (2020-10-29 10:20:44)
+13       C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.vhd (2020-10-29 10:20:54)
+14       C:\lscc\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 10:23:10)
+15       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 10:23:10)
+16       C:\lscc\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 17:26:20)
+17       C:\lscc\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 10:23:10)
+18       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 10:23:10)
+19       C:\lscc\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 10:23:10)
+20       C:\lscc\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 10:23:10)
+21       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 10:23:10)
+22       C:\lscc\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 10:23:10)
+
+*******************************************************************
+Unchanged modules: 16
+MID:  lib.cell.view
+0        work.div00.div0
+1        work.div00.vhdl
+4        work.lcdcontconfig00.lcdcontconfig0
+5        work.lcdcontconfig00.vhdl
+6        work.lcdcontdata00.lcdcontdata0
+7        work.lcdcontdata00.vhdl
+8        work.lcddata00.lcddata0
+9        work.lcddata00.vhdl
+10       work.lcdmux00.lcdmux0
+11       work.lcdmux00.vhdl
+12       work.osc00.osc0
+13       work.osc00.vhdl
+14       work.oscint00.oscint0
+15       work.oscint00.vhdl
+16       work.toplcd00.toplcd0
+17       work.toplcd00.vhdl

@@ -1,0 +1,22 @@
+#Start recording tcl command: 3/12/2021 19:19:49
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00; Project name: and00
+prj_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and00.ldf"
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_project close
+prj_run Export -impl and0 -task Jedecgen
+prj_run Export -impl and0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_program set -cable 
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_program set -port FTUSB-1
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project close
+#Stop recording: 3/12/2021 19:26:43

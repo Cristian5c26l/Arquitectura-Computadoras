@@ -1,0 +1,140 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : rom0
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : rom0
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom00.vhdl":7:7:7:11|Top entity is set to rom00.
+File C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\packageosc00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\oscint00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\contRead00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\memrom00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\packagerom00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\osc00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom00.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom00.vhdl changed - recompiling
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom00.vhdl":7:7:7:11|Synthesizing work.rom00.rom0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\memrom00.vhdl":8:7:8:14|Synthesizing work.memrom00.memrom0.
+Post processing for work.memrom00.memrom0
+Running optimization stage 1 on memrom00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\contRead00.vhdl":28:6:28:9|Removing redundant assignment.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\div00.vhdl":100:6:100:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.rom00.rom0
+Running optimization stage 1 on rom00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contRead00 .......
+Running optimization stage 2 on memrom00 .......
+Running optimization stage 2 on rom00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 97MB peak: 98MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Apr 27 11:09:40 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : rom0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Apr 27 11:09:40 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\rom00\rom0\synwork\rom00_rom0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Apr 27 11:09:40 2021
+
+###########################################################]

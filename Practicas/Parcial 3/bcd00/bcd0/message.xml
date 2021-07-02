@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=clk01_c loads=6 clock_loads=4</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=clk01_c loads=6 clock_loads=4</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>BD00/UD00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>BD00/UD00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl&quot;:31:8:31:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl&quot;:33:5:33:9|Referenced variable clkpm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Referenced variable clkpm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl&quot;:33:1:33:2|Pruning register bit 3 of outcodePM(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning register bit 3 of outcodePM(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl&quot;:23:4:23:5|Pruning unused register outFlags12_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlags12_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl&quot;:23:4:23:5|Pruning unused register outFlags8_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlags8_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:28:4:28:5|Pruning unused register outFlagAC12ca_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagAC12ca_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl&quot;:26:4:26:5|Pruning unused register outFlagAC12su_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagAC12su_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\loadData00.vhdl&quot;:25:6:25:7|Pruning unused register outFlagLD_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\loadData00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagLD_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Pruning unused register outFlag8init_cl_8. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlag8init_cl_8. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Pruning unused register outFlag12init_cl_1. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlag12init_cl_1. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:13:28:31|Sharing sequential element outFlag12init_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>Sharing sequential element outFlag12init_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:13:28:31|Sharing sequential element outFlag12init. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>Sharing sequential element outFlag12init. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl&quot;:12:4:12:10|Input port bits 6 to 0 of inac8su(7 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input port bits 6 to 0 of inac8su(7 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl&quot;:13:4:13:11|Input port bit 0 of inac12su(11 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Input port bit 0 of inac12su(11 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl&quot;:12:4:12:9|Input port bit 7 of inacs8(7 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input port bit 7 of inacs8(7 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl&quot;:12:4:12:10|Input port bit 11 of inacs12(11 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input port bit 11 of inacs12(11 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\div00.vhdl&quot;:21:2:21:3|Found inferred clock oscint00|osc_int_inferred_clock which controls 46 sequential elements including BD00.UD01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\div00.vhdl</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock oscint00|osc_int_inferred_clock which controls 46 sequential elements including BD00.UD01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\progmem00.vhdl&quot;:35:26:35:31|ROM outcodePM_1_1[2:0] (in view: work.progMem00(progmem0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\progmem00.vhdl</Navigation>
+            <Navigation>35</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>35</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>ROM outcodePM_1_1[2:0] (in view: work.progMem00(progmem0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\progmem00.vhdl&quot;:35:26:35:31|ROM outcodePM_1_1[2:0] (in view: work.progMem00(progmem0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\progmem00.vhdl</Navigation>
+            <Navigation>35</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>35</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>ROM outcodePM_1_1[2:0] (in view: work.progMem00(progmem0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl&quot;:84:7:84:10|ROM outC_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl</Navigation>
+            <Navigation>84</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>84</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>ROM outC_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl&quot;:57:7:57:10|ROM outD_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>ROM outD_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl&quot;:30:7:30:10|ROM outU_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>ROM outU_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl&quot;:84:7:84:10|ROM outC_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl</Navigation>
+            <Navigation>84</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>84</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>ROM outC_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl&quot;:57:7:57:10|ROM outD_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>ROM outD_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl&quot;:30:7:30:10|ROM outU_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\codernibbles00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>ROM outU_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_1[1] because it is equivalent to instance BD01.outAC8init_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_1[1] because it is equivalent to instance BD01.outAC8init_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC8init_7[4] because it is equivalent to instance BD01.outAC8init_7[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_7[4] because it is equivalent to instance BD01.outAC8init_7[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_1[4] because it is equivalent to instance BD01.outAC8init_1[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_1[4] because it is equivalent to instance BD01.outAC8init_1[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_35[11] because it is equivalent to instance BD01.outAC12init_cl_34[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_35[11] because it is equivalent to instance BD01.outAC12init_cl_34[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_34[11] because it is equivalent to instance BD01.outAC12init_cl_32[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_34[11] because it is equivalent to instance BD01.outAC12init_cl_32[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_33[11] because it is equivalent to instance BD01.outAC12init_cl_31[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_33[11] because it is equivalent to instance BD01.outAC12init_cl_31[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_32[11] because it is equivalent to instance BD01.outAC12init_cl_30[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_32[11] because it is equivalent to instance BD01.outAC12init_cl_30[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_31[11] because it is equivalent to instance BD01.outAC12init_cl_29[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_31[11] because it is equivalent to instance BD01.outAC12init_cl_29[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_30[11] because it is equivalent to instance BD01.outAC12init_cl_28[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_30[11] because it is equivalent to instance BD01.outAC12init_cl_28[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_29[11] because it is equivalent to instance BD01.outAC12init_cl_27[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_29[11] because it is equivalent to instance BD01.outAC12init_cl_27[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_28[11] because it is equivalent to instance BD01.outAC12init_cl_26[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_28[11] because it is equivalent to instance BD01.outAC12init_cl_26[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_27[11] because it is equivalent to instance BD01.outAC12init_cl_25[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_27[11] because it is equivalent to instance BD01.outAC12init_cl_25[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_26[11] because it is equivalent to instance BD01.outAC12init_cl_24[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_26[11] because it is equivalent to instance BD01.outAC12init_cl_24[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_25[11] because it is equivalent to instance BD01.outAC8init_cl_23[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_25[11] because it is equivalent to instance BD01.outAC8init_cl_23[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC12init_cl_24[11] because it is equivalent to instance BD01.outAC8init_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_24[11] because it is equivalent to instance BD01.outAC8init_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC8init_cl_23[7] because it is equivalent to instance BD01.outAC8init_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_23[7] because it is equivalent to instance BD01.outAC8init_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC8init_cl_22[7] because it is equivalent to instance BD01.outAC8init_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_22[7] because it is equivalent to instance BD01.outAC8init_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC8init_cl_21[7] because it is equivalent to instance BD01.outAC8init_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_21[7] because it is equivalent to instance BD01.outAC8init_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC8init_cl_20[7] because it is equivalent to instance BD01.outAC8init_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_20[7] because it is equivalent to instance BD01.outAC8init_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC8init_cl_19[7] because it is equivalent to instance BD01.outAC8init_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_19[7] because it is equivalent to instance BD01.outAC8init_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC8init_cl_18[7] because it is equivalent to instance BD01.outAC8init_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_18[7] because it is equivalent to instance BD01.outAC8init_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_11[11] because it is equivalent to instance BD01.outAC12init_cl_9[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_11[11] because it is equivalent to instance BD01.outAC12init_cl_9[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:28:9:28:10|Removing user instance BD01.outAC8init_cl_17[7] because it is equivalent to instance BD01.outAC8init_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_17[7] because it is equivalent to instance BD01.outAC8init_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_9[11] because it is equivalent to instance BD01.outAC12init_cl_7[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_9[11] because it is equivalent to instance BD01.outAC12init_cl_7[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_8[11] because it is equivalent to instance BD01.outAC12init_cl_6[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_8[11] because it is equivalent to instance BD01.outAC12init_cl_6[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_7[11] because it is equivalent to instance BD01.outAC12init_cl_5[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_7[11] because it is equivalent to instance BD01.outAC12init_cl_5[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_6[11] because it is equivalent to instance BD01.outAC12init_cl_4[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_6[11] because it is equivalent to instance BD01.outAC12init_cl_4[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_5[11] because it is equivalent to instance BD01.outAC12init_cl_3[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_5[11] because it is equivalent to instance BD01.outAC12init_cl_3[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_4[11] because it is equivalent to instance BD01.outAC12init_cl_2[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_4[11] because it is equivalent to instance BD01.outAC12init_cl_2[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_3[11] because it is equivalent to instance BD01.outAC12init_cl_1[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_3[11] because it is equivalent to instance BD01.outAC12init_cl_1[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_2[11] because it is equivalent to instance BD01.outAC12init_cl[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_2[11] because it is equivalent to instance BD01.outAC12init_cl[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_1[11] because it is equivalent to instance BD01.outAC8init_cl_7[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_1[11] because it is equivalent to instance BD01.outAC8init_cl_7[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl[11] because it is equivalent to instance BD01.outAC8init_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl[11] because it is equivalent to instance BD01.outAC8init_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_cl_7[7] because it is equivalent to instance BD01.outAC8init_cl_5[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_cl_7[7] because it is equivalent to instance BD01.outAC8init_cl_5[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_cl_6[7] because it is equivalent to instance BD01.outAC8init_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_cl_6[7] because it is equivalent to instance BD01.outAC8init_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_cl_5[7] because it is equivalent to instance BD01.outAC8init_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_cl_5[7] because it is equivalent to instance BD01.outAC8init_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_cl_4[7] because it is equivalent to instance BD01.outAC8init_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_cl_4[7] because it is equivalent to instance BD01.outAC8init_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_cl_3[7] because it is equivalent to instance BD01.outAC8init_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_cl_3[7] because it is equivalent to instance BD01.outAC8init_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_cl_2[7] because it is equivalent to instance BD01.outAC8init_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_cl_2[7] because it is equivalent to instance BD01.outAC8init_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_23[11] because it is equivalent to instance BD01.outAC12init_cl_19[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_23[11] because it is equivalent to instance BD01.outAC12init_cl_19[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_cl_1[7] because it is equivalent to instance BD01.outAC12init_cl_10[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_cl_1[7] because it is equivalent to instance BD01.outAC12init_cl_10[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC12init_cl_10[11] because it is equivalent to instance BD01.outAC8init_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC12init_cl_10[11] because it is equivalent to instance BD01.outAC8init_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_20[11] because it is equivalent to instance BD01.outAC12init_cl_18[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_20[11] because it is equivalent to instance BD01.outAC12init_cl_18[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_19[11] because it is equivalent to instance BD01.outAC12init_cl_17[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_19[11] because it is equivalent to instance BD01.outAC12init_cl_17[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_18[11] because it is equivalent to instance BD01.outAC12init_cl_16[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_18[11] because it is equivalent to instance BD01.outAC12init_cl_16[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_17[11] because it is equivalent to instance BD01.outAC12init_cl_15[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_17[11] because it is equivalent to instance BD01.outAC12init_cl_15[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_16[11] because it is equivalent to instance BD01.outAC12init_cl_14[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_16[11] because it is equivalent to instance BD01.outAC12init_cl_14[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_15[11] because it is equivalent to instance BD01.outAC12init_cl_13[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_15[11] because it is equivalent to instance BD01.outAC12init_cl_13[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_14[11] because it is equivalent to instance BD01.outAC12init_cl_12[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_14[11] because it is equivalent to instance BD01.outAC12init_cl_12[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_13[11] because it is equivalent to instance BD01.outAC8init_cl_15[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_13[11] because it is equivalent to instance BD01.outAC8init_cl_15[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC12init_cl_12[11] because it is equivalent to instance BD01.outAC8init_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC12init_cl_12[11] because it is equivalent to instance BD01.outAC8init_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC8init_cl_15[7] because it is equivalent to instance BD01.outAC8init_cl_13[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_15[7] because it is equivalent to instance BD01.outAC8init_cl_13[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC8init_cl_14[7] because it is equivalent to instance BD01.outAC8init_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_14[7] because it is equivalent to instance BD01.outAC8init_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC8init_cl_13[7] because it is equivalent to instance BD01.outAC8init_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_13[7] because it is equivalent to instance BD01.outAC8init_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC8init_cl_12[7] because it is equivalent to instance BD01.outAC8init_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_12[7] because it is equivalent to instance BD01.outAC8init_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC8init_cl_11[7] because it is equivalent to instance BD01.outAC8init_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_11[7] because it is equivalent to instance BD01.outAC8init_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:29:13:29:14|Removing user instance BD01.outAC8init_cl_10[7] because it is equivalent to instance BD01.outAC8init_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Removing user instance BD01.outAC8init_cl_10[7] because it is equivalent to instance BD01.outAC8init_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl&quot;:27:6:27:7|Removing sequential instance BD01.outAC8init_1[3] because it is equivalent to instance BD01.outAC8init_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\init00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD01.outAC8init_1[3] because it is equivalent to instance BD01.outAC8init_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:27:14:27:15|Removing user instance BD02.outDataLD_cl_15[7] because it is equivalent to instance BD02.outDataLD_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_15[7] because it is equivalent to instance BD02.outDataLD_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:27:14:27:15|Removing user instance BD02.outDataLD_cl_14[7] because it is equivalent to instance BD02.outDataLD_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_14[7] because it is equivalent to instance BD02.outDataLD_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:27:14:27:15|Removing user instance BD02.outDataLD_cl_13[7] because it is equivalent to instance BD02.outDataLD_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_13[7] because it is equivalent to instance BD02.outDataLD_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:27:14:27:15|Removing user instance BD02.outDataLD_cl_12[7] because it is equivalent to instance BD02.outDataLD_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_12[7] because it is equivalent to instance BD02.outDataLD_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:27:14:27:15|Removing user instance BD02.outDataLD_cl_11[7] because it is equivalent to instance BD02.outDataLD_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_11[7] because it is equivalent to instance BD02.outDataLD_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:27:14:27:15|Removing user instance BD02.outDataLD_cl_10[7] because it is equivalent to instance BD02.outDataLD_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_10[7] because it is equivalent to instance BD02.outDataLD_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:26:9:26:10|Removing user instance BD02.outDataLD_cl_23[7] because it is equivalent to instance BD02.outDataLD_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_23[7] because it is equivalent to instance BD02.outDataLD_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:26:9:26:10|Removing user instance BD02.outDataLD_cl_22[7] because it is equivalent to instance BD02.outDataLD_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_22[7] because it is equivalent to instance BD02.outDataLD_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:26:9:26:10|Removing user instance BD02.outDataLD_cl_21[7] because it is equivalent to instance BD02.outDataLD_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_21[7] because it is equivalent to instance BD02.outDataLD_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:26:9:26:10|Removing user instance BD02.outDataLD_cl_20[7] because it is equivalent to instance BD02.outDataLD_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_20[7] because it is equivalent to instance BD02.outDataLD_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:26:9:26:10|Removing user instance BD02.outDataLD_cl_19[7] because it is equivalent to instance BD02.outDataLD_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_19[7] because it is equivalent to instance BD02.outDataLD_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:26:9:26:10|Removing user instance BD02.outDataLD_cl_18[7] because it is equivalent to instance BD02.outDataLD_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_18[7] because it is equivalent to instance BD02.outDataLD_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:25:6:25:7|Removing sequential instance BD02.outDataLD_cl_7[7] because it is equivalent to instance BD02.outDataLD_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD02.outDataLD_cl_7[7] because it is equivalent to instance BD02.outDataLD_cl_6[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:25:6:25:7|Removing sequential instance BD02.outDataLD_cl_6[7] because it is equivalent to instance BD02.outDataLD_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD02.outDataLD_cl_6[7] because it is equivalent to instance BD02.outDataLD_cl_4[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:25:6:25:7|Removing sequential instance BD02.outDataLD_cl_5[7] because it is equivalent to instance BD02.outDataLD_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD02.outDataLD_cl_5[7] because it is equivalent to instance BD02.outDataLD_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:25:6:25:7|Removing sequential instance BD02.outDataLD_cl_4[7] because it is equivalent to instance BD02.outDataLD_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD02.outDataLD_cl_4[7] because it is equivalent to instance BD02.outDataLD_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:25:6:25:7|Removing sequential instance BD02.outDataLD_cl_3[7] because it is equivalent to instance BD02.outDataLD_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD02.outDataLD_cl_3[7] because it is equivalent to instance BD02.outDataLD_cl_1[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:25:6:25:7|Removing sequential instance BD02.outDataLD_cl_2[7] because it is equivalent to instance BD02.outDataLD_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD02.outDataLD_cl_2[7] because it is equivalent to instance BD02.outDataLD_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:26:9:26:10|Removing user instance BD02.outDataLD_cl_17[7] because it is equivalent to instance BD02.outDataLD_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing user instance BD02.outDataLD_cl_17[7] because it is equivalent to instance BD02.outDataLD_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl&quot;:25:6:25:7|Removing sequential instance BD02.outDataLD_cl_1[7] because it is equivalent to instance BD02.outDataLD_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\loaddata00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Removing sequential instance BD02.outDataLD_cl_1[7] because it is equivalent to instance BD02.outDataLD_cl[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_23[11] because it is equivalent to instance BD04.outAC12ca_cl_22[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_23[11] because it is equivalent to instance BD04.outAC12ca_cl_22[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_22[11] because it is equivalent to instance BD04.outAC12ca_cl_20[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_22[11] because it is equivalent to instance BD04.outAC12ca_cl_20[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_21[11] because it is equivalent to instance BD04.outAC12ca_cl_19[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_21[11] because it is equivalent to instance BD04.outAC12ca_cl_19[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_20[11] because it is equivalent to instance BD04.outAC12ca_cl_18[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_20[11] because it is equivalent to instance BD04.outAC12ca_cl_18[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_19[11] because it is equivalent to instance BD04.outAC12ca_cl_17[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_19[11] because it is equivalent to instance BD04.outAC12ca_cl_17[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_18[11] because it is equivalent to instance BD04.outAC12ca_cl_16[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_18[11] because it is equivalent to instance BD04.outAC12ca_cl_16[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_17[11] because it is equivalent to instance BD04.outAC12ca_cl_15[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_17[11] because it is equivalent to instance BD04.outAC12ca_cl_15[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_16[11] because it is equivalent to instance BD04.outAC12ca_cl_14[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_16[11] because it is equivalent to instance BD04.outAC12ca_cl_14[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_15[11] because it is equivalent to instance BD04.outAC12ca_cl_13[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_15[11] because it is equivalent to instance BD04.outAC12ca_cl_13[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_14[11] because it is equivalent to instance BD04.outAC12ca_cl_12[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_14[11] because it is equivalent to instance BD04.outAC12ca_cl_12[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_34[11] because it is equivalent to instance BD04.outAC12ca_cl_30[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_34[11] because it is equivalent to instance BD04.outAC12ca_cl_30[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_33[11] because it is equivalent to instance BD04.outAC12ca_cl_32[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_33[11] because it is equivalent to instance BD04.outAC12ca_cl_32[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:30:5:30:8|Removing user instance BD04.outAC12ca_cl_12[11] because it is equivalent to instance BD04.outAC12ca_cl_13[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_12[11] because it is equivalent to instance BD04.outAC12ca_cl_13[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_35[11] because it is equivalent to instance BD04.outAC12ca_cl_29[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_35[11] because it is equivalent to instance BD04.outAC12ca_cl_29[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_30[11] because it is equivalent to instance BD04.outAC12ca_cl_28[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_30[11] because it is equivalent to instance BD04.outAC12ca_cl_28[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_29[11] because it is equivalent to instance BD04.outAC12ca_cl_31[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_29[11] because it is equivalent to instance BD04.outAC12ca_cl_31[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_28[11] because it is equivalent to instance BD04.outAC12ca_cl_26[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_28[11] because it is equivalent to instance BD04.outAC12ca_cl_26[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_31[11] because it is equivalent to instance BD04.outAC12ca_cl_25[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_31[11] because it is equivalent to instance BD04.outAC12ca_cl_25[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_26[11] because it is equivalent to instance BD04.outAC12ca_cl_24[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_26[11] because it is equivalent to instance BD04.outAC12ca_cl_24[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_25[11] because it is equivalent to instance BD04.outAC12ca_cl_27[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_25[11] because it is equivalent to instance BD04.outAC12ca_cl_27[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:29:3:29:4|Removing user instance BD04.outAC12ca_cl_32[11] because it is equivalent to instance BD04.outAC12ca_cl_27[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance BD04.outAC12ca_cl_32[11] because it is equivalent to instance BD04.outAC12ca_cl_27[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl&quot;:28:4:28:5|Removing sequential instance BD04.outAC12ca_cl_7[11] because it is equivalent to instance BD04.outAC12ca_cl_11[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\compadd00.vhdl</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing sequential instance BD04.outAC12ca_cl_7[11] because it is equivalent to instance BD04.outAC12ca_cl_11[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net BD00.UD00.sclk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net BD00.UD00.sclk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

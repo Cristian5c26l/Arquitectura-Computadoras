@@ -1,0 +1,16 @@
+#Start recording tcl command: 3/19/2021 22:13:45
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/multiplier8bit00; Project name: multiplier8bit00
+prj_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/multiplier8bit00/multiplier8bit00.ldf"
+prj_run Export -impl multiplier8bit0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/multiplier8bit00/multiplier8bit0/multiplier8bit0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/multiplier8bit00/multiplier8bit0/multiplier8bit0.xcf"
+pgr_project close
+prj_run Export -impl multiplier8bit0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/multiplier8bit00/multiplier8bit0/multiplier8bit0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/multiplier8bit00/multiplier8bit0/multiplier8bit0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/19/2021 23:10:25

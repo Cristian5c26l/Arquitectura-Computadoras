@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\shiftsbarrels00\shiftsbarrels0\synlog\shiftsbarrels00_shiftsbarrels0_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>div00|oscout_derived_clock</data>
+<data>2.1 MHz</data>
+<data>390.2 MHz</data>
+<data>956.413</data>
+</row>
+<row>
+<data>oscint00|osc_int_inferred_clock</data>
+<data>2.1 MHz</data>
+<data>69.6 MHz</data>
+<data>466.404</data>
+</row>
+</report_table>

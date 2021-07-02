@@ -1,0 +1,6 @@
+#Start recording tcl command: 3/18/2021 20:08:24
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/multiplier4bit00; Project name: multiplier4bit00
+prj_project new -name "multiplier4bit00" -impl "multiplier4bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_project close
+#Stop recording: 3/18/2021 20:28:41

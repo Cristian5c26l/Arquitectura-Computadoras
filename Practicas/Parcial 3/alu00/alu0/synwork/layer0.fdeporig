@@ -1,0 +1,108 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\alu0\\synwork\\alu00_alu0_comp.srs|-top|alu00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603988322
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604359580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603988590
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\alu0\\source\\div00.vhdl":1616431759
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\alu0\\source\\oscint00.vhdl":1616252947
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\alu0\\source\\packageosc00.vhdl":1616431770
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\anda00.vhdl":1624291785
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\ora00.vhdl":1624372872
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\xora00.vhdl":1624374548
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\nanda00.vhdl":1624375148
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\nora00.vhdl":1624375153
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\xnora00.vhdl":1624375512
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\nota00.vhdl":1624375814
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\buffera00.vhdl":1624376096
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\ac00.vhdl":1624381022
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\packagealu00.vhdl":1624376133
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\alu0\\source\\osc00.vhdl":1616431783
+#CUR:"C:\\Users\\crist\\Desktop\\Semestre20212\\Arquitectura de computadoras\\Parcial 3\\Practicas\\alu00\\alu00.vhdl":1624376187
+0 "C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu0\source\div00.vhdl" vhdl
+2 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu0\source\oscint00.vhdl" vhdl
+3 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu0\source\packageosc00.vhdl" vhdl
+4 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\anda00.vhdl" vhdl
+5 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\ora00.vhdl" vhdl
+6 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\xora00.vhdl" vhdl
+7 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\nanda00.vhdl" vhdl
+8 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\nora00.vhdl" vhdl
+9 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\xnora00.vhdl" vhdl
+10 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\nota00.vhdl" vhdl
+11 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\buffera00.vhdl" vhdl
+12 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\ac00.vhdl" vhdl
+13 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\packagealu00.vhdl" vhdl
+14 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu0\source\osc00.vhdl" vhdl
+15 "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 2 1 3 
+15 14 4 5 6 7 8 9 10 11 12 13 
+
+# Dependency Lists (Users Of)
+0 -1
+1 14 
+2 14 
+3 14 
+4 15 
+5 15 
+6 15 
+7 15 
+8 15 
+9 15 
+10 15 
+11 15 
+12 15 
+13 15 
+14 15 
+15 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work oscint00 oscint0 2
+module work oscint00 2
+arch work anda00 anda0 4
+module work anda00 4
+arch work ora00 ora0 5
+module work ora00 5
+arch work xora00 xora0 6
+module work xora00 6
+arch work nanda00 nanda0 7
+module work nanda00 7
+arch work nora00 nora0 8
+module work nora00 8
+arch work xnora00 xnora0 9
+module work xnora00 9
+arch work nota00 nota0 10
+module work nota00 10
+arch work buffera00 buffera0 11
+module work buffera00 11
+arch work ac00 ac0 12
+module work ac00 12
+arch work osc00 osc0 14
+module work osc00 14
+arch work alu00 alu0 15
+module work alu00 15

@@ -1,0 +1,31 @@
+#Start recording tcl command: 3/25/2021 20:08:17
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00; Project name: barrelRL00
+prj_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL00.ldf"
+prj_run Export -impl barrelRL0 -task Jedecgen
+prj_run Export -impl barrelRL0 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+prj_src add -exclude "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+prj_src enable "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_project close
+prj_run Export -impl barrelRL0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_project close
+prj_run Export -impl barrelRL0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_project close
+prj_run Export -impl barrelRL0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/barrelRL0/barrelRL0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/25/2021 21:36:32

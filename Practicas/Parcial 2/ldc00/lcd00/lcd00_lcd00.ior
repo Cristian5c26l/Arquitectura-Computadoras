@@ -1,0 +1,84 @@
+Loading design for application iotiming from file lcd00_lcd00.ncd.
+Design name: toplcd00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file lcd00_lcd00.ncd.
+Design name: toplcd00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: toplcd00
+// Package: TQFP144
+// ncd File: lcd00_lcd00.ncd
+// Version: Diamond (64-bit) 3.12.0.240.2
+// Written on Sun May 30 14:41:41 2021
+// M: Minimum Performance Grade
+// iotiming lcd00_lcd00.ncd lcd00_lcd00.prf -gui -msgset C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)
+
+
+// Internal_Clock to Input
+
+Port  Internal_Clock
+--------------------------------------------------------
+cdiv0 LC00/sclk     
+cdiv0 LC00/sclk     
+cdiv0 LC00/sclk     
+cdiv0 LC00/sclk     
+cdiv0 LC00/sclk     
+reset clk0_c        
+
+
+// Internal_Clock to Output
+
+Port                Internal_Clock
+--------------------------------------------------------
+EN0                 clk0_c        
+RS0                 clk0_c        
+clk0                LC00/sclk     
+outWordlcd0[0]      clk0_c        
+outWordlcd0[1]      clk0_c        
+outWordlcd0[2]      clk0_c        
+outWordlcd0[3]      clk0_c        
+outWordlcd0[4]      clk0_c        
+outWordlcd0[5]      clk0_c        
+outWordlcd0[6]      clk0_c        
+outWordlcd0[7]      clk0_c        
+soutContConfig0[0]  clk0_c        
+soutContConfig0[1]  clk0_c        
+soutContConfig0[2]  clk0_c        
+soutContConfig0[3]  clk0_c        
+soutContConfig0[4]  clk0_c        
+soutContData0[0]    clk0_c        
+soutContData0[1]    clk0_c        
+soutContData0[2]    clk0_c        
+soutContData0[3]    clk0_c        
+soutFlagContConfig0 clk0_c        
+soutFlagContData0   clk0_c        
+soutFlagData0       clk0_c        
+soutFlagconfig0     clk0_c        

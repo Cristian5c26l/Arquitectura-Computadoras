@@ -1,0 +1,10 @@
+#Start recording tcl command: 4/15/2021 18:19:19
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/key00; Project name: key00
+prj_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/key00/key00.ldf"
+prj_run Export -impl key0 -task Jedecgen
+prj_run Export -impl key0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/key00/key0/key0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/key00/key0/key0.xcf"
+pgr_project close
+#Stop recording: 4/15/2021 18:42:59

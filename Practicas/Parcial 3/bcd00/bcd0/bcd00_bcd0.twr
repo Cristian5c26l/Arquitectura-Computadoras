@@ -1,0 +1,1421 @@
+
+Loading design for application trce from file bcd00_bcd0.ncd.
+Design name: bcd00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
+Thu Jun 03 17:15:08 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o bcd00_bcd0.twr -gui bcd00_bcd0.ncd bcd00_bcd0.prf 
+Design file:     bcd00_bcd0.ncd
+Preference file: bcd00_bcd0.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "BD00/sclk" 2.080000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 464.511ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[2]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[21]  (to BD00/sclk +)
+
+   Delay:              16.108ns  (42.9% logic, 57.1% route), 21 logic levels.
+
+ Constraint Details:
+
+     16.108ns physical path delay BD00/UD01/SLICE_23 to BD00/UD01/SLICE_13 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.511ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_23 to BD00/UD01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11B.CLK to     R19C11B.Q1 BD00/UD01/SLICE_23 (from BD00/sclk)
+ROUTE         2     1.261     R19C11B.Q1 to     R18C11A.B1 BD00/UD01/sdiv[2]
+CTOF_DEL    ---     0.452     R18C11A.B1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOFCO_D  ---     0.146    R19C13B.FCI to    R19C13B.FCO BD00/UD01/SLICE_15
+ROUTE         1     0.000    R19C13B.FCO to    R19C13C.FCI BD00/UD01/un1_sdiv_cry_18
+FCITOFCO_D  ---     0.146    R19C13C.FCI to    R19C13C.FCO BD00/UD01/SLICE_14
+ROUTE         1     0.000    R19C13C.FCO to    R19C13D.FCI BD00/UD01/un1_sdiv_cry_20
+FCITOF0_DE  ---     0.517    R19C13D.FCI to     R19C13D.F0 BD00/UD01/SLICE_13
+ROUTE         1     0.000     R19C13D.F0 to    R19C13D.DI0 BD00/UD01/sdiv_12[21] (to BD00/sclk)
+                  --------
+                   16.108   (42.9% logic, 57.1% route), 21 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11B.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13D.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.605ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[2]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[20]  (to BD00/sclk +)
+
+   Delay:              16.014ns  (42.5% logic, 57.5% route), 20 logic levels.
+
+ Constraint Details:
+
+     16.014ns physical path delay BD00/UD01/SLICE_23 to BD00/UD01/SLICE_14 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.605ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_23 to BD00/UD01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11B.CLK to     R19C11B.Q1 BD00/UD01/SLICE_23 (from BD00/sclk)
+ROUTE         2     1.261     R19C11B.Q1 to     R18C11A.B1 BD00/UD01/sdiv[2]
+CTOF_DEL    ---     0.452     R18C11A.B1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOFCO_D  ---     0.146    R19C13B.FCI to    R19C13B.FCO BD00/UD01/SLICE_15
+ROUTE         1     0.000    R19C13B.FCO to    R19C13C.FCI BD00/UD01/un1_sdiv_cry_18
+FCITOF1_DE  ---     0.569    R19C13C.FCI to     R19C13C.F1 BD00/UD01/SLICE_14
+ROUTE         1     0.000     R19C13C.F1 to    R19C13C.DI1 BD00/UD01/sdiv_12[20] (to BD00/sclk)
+                  --------
+                   16.014   (42.5% logic, 57.5% route), 20 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11B.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13C.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.657ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[2]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[19]  (to BD00/sclk +)
+
+   Delay:              15.962ns  (42.4% logic, 57.6% route), 20 logic levels.
+
+ Constraint Details:
+
+     15.962ns physical path delay BD00/UD01/SLICE_23 to BD00/UD01/SLICE_14 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.657ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_23 to BD00/UD01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11B.CLK to     R19C11B.Q1 BD00/UD01/SLICE_23 (from BD00/sclk)
+ROUTE         2     1.261     R19C11B.Q1 to     R18C11A.B1 BD00/UD01/sdiv[2]
+CTOF_DEL    ---     0.452     R18C11A.B1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOFCO_D  ---     0.146    R19C13B.FCI to    R19C13B.FCO BD00/UD01/SLICE_15
+ROUTE         1     0.000    R19C13B.FCO to    R19C13C.FCI BD00/UD01/un1_sdiv_cry_18
+FCITOF0_DE  ---     0.517    R19C13C.FCI to     R19C13C.F0 BD00/UD01/SLICE_14
+ROUTE         1     0.000     R19C13C.F0 to    R19C13C.DI0 BD00/UD01/sdiv_12[19] (to BD00/sclk)
+                  --------
+                   15.962   (42.4% logic, 57.6% route), 20 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11B.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13C.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.737ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[3]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[21]  (to BD00/sclk +)
+
+   Delay:              15.882ns  (43.5% logic, 56.5% route), 21 logic levels.
+
+ Constraint Details:
+
+     15.882ns physical path delay BD00/UD01/SLICE_22 to BD00/UD01/SLICE_13 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.737ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_22 to BD00/UD01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11C.CLK to     R19C11C.Q0 BD00/UD01/SLICE_22 (from BD00/sclk)
+ROUTE         2     1.035     R19C11C.Q0 to     R18C11A.C1 BD00/UD01/sdiv[3]
+CTOF_DEL    ---     0.452     R18C11A.C1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOFCO_D  ---     0.146    R19C13B.FCI to    R19C13B.FCO BD00/UD01/SLICE_15
+ROUTE         1     0.000    R19C13B.FCO to    R19C13C.FCI BD00/UD01/un1_sdiv_cry_18
+FCITOFCO_D  ---     0.146    R19C13C.FCI to    R19C13C.FCO BD00/UD01/SLICE_14
+ROUTE         1     0.000    R19C13C.FCO to    R19C13D.FCI BD00/UD01/un1_sdiv_cry_20
+FCITOF0_DE  ---     0.517    R19C13D.FCI to     R19C13D.F0 BD00/UD01/SLICE_13
+ROUTE         1     0.000     R19C13D.F0 to    R19C13D.DI0 BD00/UD01/sdiv_12[21] (to BD00/sclk)
+                  --------
+                   15.882   (43.5% logic, 56.5% route), 21 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_22:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11C.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13D.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.751ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[2]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[18]  (to BD00/sclk +)
+
+   Delay:              15.868ns  (42.0% logic, 58.0% route), 19 logic levels.
+
+ Constraint Details:
+
+     15.868ns physical path delay BD00/UD01/SLICE_23 to BD00/UD01/SLICE_15 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.751ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_23 to BD00/UD01/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11B.CLK to     R19C11B.Q1 BD00/UD01/SLICE_23 (from BD00/sclk)
+ROUTE         2     1.261     R19C11B.Q1 to     R18C11A.B1 BD00/UD01/sdiv[2]
+CTOF_DEL    ---     0.452     R18C11A.B1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOF1_DE  ---     0.569    R19C13B.FCI to     R19C13B.F1 BD00/UD01/SLICE_15
+ROUTE         1     0.000     R19C13B.F1 to    R19C13B.DI1 BD00/UD01/sdiv_12[18] (to BD00/sclk)
+                  --------
+                   15.868   (42.0% logic, 58.0% route), 19 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11B.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13B.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.803ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[2]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[17]  (to BD00/sclk +)
+
+   Delay:              15.816ns  (41.8% logic, 58.2% route), 19 logic levels.
+
+ Constraint Details:
+
+     15.816ns physical path delay BD00/UD01/SLICE_23 to BD00/UD01/SLICE_15 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.803ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_23 to BD00/UD01/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11B.CLK to     R19C11B.Q1 BD00/UD01/SLICE_23 (from BD00/sclk)
+ROUTE         2     1.261     R19C11B.Q1 to     R18C11A.B1 BD00/UD01/sdiv[2]
+CTOF_DEL    ---     0.452     R18C11A.B1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOF0_DE  ---     0.517    R19C13B.FCI to     R19C13B.F0 BD00/UD01/SLICE_15
+ROUTE         1     0.000     R19C13B.F0 to    R19C13B.DI0 BD00/UD01/sdiv_12[17] (to BD00/sclk)
+                  --------
+                   15.816   (41.8% logic, 58.2% route), 19 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11B.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13B.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.831ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[3]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[20]  (to BD00/sclk +)
+
+   Delay:              15.788ns  (43.2% logic, 56.8% route), 20 logic levels.
+
+ Constraint Details:
+
+     15.788ns physical path delay BD00/UD01/SLICE_22 to BD00/UD01/SLICE_14 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.831ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_22 to BD00/UD01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11C.CLK to     R19C11C.Q0 BD00/UD01/SLICE_22 (from BD00/sclk)
+ROUTE         2     1.035     R19C11C.Q0 to     R18C11A.C1 BD00/UD01/sdiv[3]
+CTOF_DEL    ---     0.452     R18C11A.C1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOFCO_D  ---     0.146    R19C13B.FCI to    R19C13B.FCO BD00/UD01/SLICE_15
+ROUTE         1     0.000    R19C13B.FCO to    R19C13C.FCI BD00/UD01/un1_sdiv_cry_18
+FCITOF1_DE  ---     0.569    R19C13C.FCI to     R19C13C.F1 BD00/UD01/SLICE_14
+ROUTE         1     0.000     R19C13C.F1 to    R19C13C.DI1 BD00/UD01/sdiv_12[20] (to BD00/sclk)
+                  --------
+                   15.788   (43.2% logic, 56.8% route), 20 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_22:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11C.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13C.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.883ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[3]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[19]  (to BD00/sclk +)
+
+   Delay:              15.736ns  (43.0% logic, 57.0% route), 20 logic levels.
+
+ Constraint Details:
+
+     15.736ns physical path delay BD00/UD01/SLICE_22 to BD00/UD01/SLICE_14 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.883ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_22 to BD00/UD01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11C.CLK to     R19C11C.Q0 BD00/UD01/SLICE_22 (from BD00/sclk)
+ROUTE         2     1.035     R19C11C.Q0 to     R18C11A.C1 BD00/UD01/sdiv[3]
+CTOF_DEL    ---     0.452     R18C11A.C1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOFCO_D  ---     0.146    R19C13B.FCI to    R19C13B.FCO BD00/UD01/SLICE_15
+ROUTE         1     0.000    R19C13B.FCO to    R19C13C.FCI BD00/UD01/un1_sdiv_cry_18
+FCITOF0_DE  ---     0.517    R19C13C.FCI to     R19C13C.F0 BD00/UD01/SLICE_14
+ROUTE         1     0.000     R19C13C.F0 to    R19C13C.DI0 BD00/UD01/sdiv_12[19] (to BD00/sclk)
+                  --------
+                   15.736   (43.0% logic, 57.0% route), 20 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_22:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11C.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13C.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.897ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[2]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[16]  (to BD00/sclk +)
+
+   Delay:              15.722ns  (41.5% logic, 58.5% route), 18 logic levels.
+
+ Constraint Details:
+
+     15.722ns physical path delay BD00/UD01/SLICE_23 to BD00/UD01/SLICE_16 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.897ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_23 to BD00/UD01/SLICE_16:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11B.CLK to     R19C11B.Q1 BD00/UD01/SLICE_23 (from BD00/sclk)
+ROUTE         2     1.261     R19C11B.Q1 to     R18C11A.B1 BD00/UD01/sdiv[2]
+CTOF_DEL    ---     0.452     R18C11A.B1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOF1_DE  ---     0.569    R19C13A.FCI to     R19C13A.F1 BD00/UD01/SLICE_16
+ROUTE         1     0.000     R19C13A.F1 to    R19C13A.DI1 BD00/UD01/sdiv_12[16] (to BD00/sclk)
+                  --------
+                   15.722   (41.5% logic, 58.5% route), 18 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11B.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_16:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13A.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 464.914ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[0]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[21]  (to BD00/sclk +)
+
+   Delay:              15.705ns  (44.0% logic, 56.0% route), 21 logic levels.
+
+ Constraint Details:
+
+     15.705ns physical path delay BD00/UD01/SLICE_12 to BD00/UD01/SLICE_13 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.150ns DIN_SET requirement (totaling 480.619ns) by 464.914ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_12 to BD00/UD01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409    R19C11A.CLK to     R19C11A.Q1 BD00/UD01/SLICE_12 (from BD00/sclk)
+ROUTE         2     0.858     R19C11A.Q1 to     R18C11A.A1 BD00/UD01/sdiv[0]
+CTOF_DEL    ---     0.452     R18C11A.A1 to     R18C11A.F1 BD00/UD01/SLICE_217
+ROUTE         1     0.882     R18C11A.F1 to     R18C12C.B1 BD00/UD01/oscout13lto18_i_a2_15_4
+CTOF_DEL    ---     0.452     R18C12C.B1 to     R18C12C.F1 BD00/UD01/SLICE_191
+ROUTE         4     0.904     R18C12C.F1 to     R18C13C.B1 BD00/UD01/N_27_8
+CTOF_DEL    ---     0.452     R18C13C.B1 to     R18C13C.F1 BD00/UD01/SLICE_177
+ROUTE         6     0.399     R18C13C.F1 to     R18C13C.C0 BD00/UD01/N_3_19
+CTOF_DEL    ---     0.452     R18C13C.C0 to     R18C13C.F0 BD00/UD01/SLICE_177
+ROUTE         1     0.954     R18C13C.F0 to     R19C14C.C0 BD00/UD01/N_9
+CTOF_DEL    ---     0.452     R19C14C.C0 to     R19C14C.F0 BD00/UD01/SLICE_184
+ROUTE         1     0.659     R19C14C.F0 to     R19C14A.C0 BD00/UD01/oscout_0_sqmuxa_2
+CTOF_DEL    ---     0.452     R19C14A.C0 to     R19C14A.F0 BD00/UD01/SLICE_182
+ROUTE         1     1.734     R19C14A.F0 to     R18C15C.B0 BD00/UD01/un1_oscout56_7_4_0
+CTOF_DEL    ---     0.452     R18C15C.B0 to     R18C15C.F0 BD00/UD01/SLICE_181
+ROUTE         3     0.674     R18C15C.F0 to     R18C15A.C0 BD00/UD01/un1_oscout56_7_4
+CTOF_DEL    ---     0.452     R18C15A.C0 to     R18C15A.F0 BD00/UD01/SLICE_179
+ROUTE         1     1.734     R18C15A.F0 to     R19C11A.B0 BD00/UD01/un1_oscout56_i
+C0TOFCO_DE  ---     0.905     R19C11A.B0 to    R19C11A.FCO BD00/UD01/SLICE_12
+ROUTE         1     0.000    R19C11A.FCO to    R19C11B.FCI BD00/UD01/un1_sdiv_cry_0
+FCITOFCO_D  ---     0.146    R19C11B.FCI to    R19C11B.FCO BD00/UD01/SLICE_23
+ROUTE         1     0.000    R19C11B.FCO to    R19C11C.FCI BD00/UD01/un1_sdiv_cry_2
+FCITOFCO_D  ---     0.146    R19C11C.FCI to    R19C11C.FCO BD00/UD01/SLICE_22
+ROUTE         1     0.000    R19C11C.FCO to    R19C11D.FCI BD00/UD01/un1_sdiv_cry_4
+FCITOFCO_D  ---     0.146    R19C11D.FCI to    R19C11D.FCO BD00/UD01/SLICE_21
+ROUTE         1     0.000    R19C11D.FCO to    R19C12A.FCI BD00/UD01/un1_sdiv_cry_6
+FCITOFCO_D  ---     0.146    R19C12A.FCI to    R19C12A.FCO BD00/UD01/SLICE_20
+ROUTE         1     0.000    R19C12A.FCO to    R19C12B.FCI BD00/UD01/un1_sdiv_cry_8
+FCITOFCO_D  ---     0.146    R19C12B.FCI to    R19C12B.FCO BD00/UD01/SLICE_19
+ROUTE         1     0.000    R19C12B.FCO to    R19C12C.FCI BD00/UD01/un1_sdiv_cry_10
+FCITOFCO_D  ---     0.146    R19C12C.FCI to    R19C12C.FCO BD00/UD01/SLICE_18
+ROUTE         1     0.000    R19C12C.FCO to    R19C12D.FCI BD00/UD01/un1_sdiv_cry_12
+FCITOFCO_D  ---     0.146    R19C12D.FCI to    R19C12D.FCO BD00/UD01/SLICE_17
+ROUTE         1     0.000    R19C12D.FCO to    R19C13A.FCI BD00/UD01/un1_sdiv_cry_14
+FCITOFCO_D  ---     0.146    R19C13A.FCI to    R19C13A.FCO BD00/UD01/SLICE_16
+ROUTE         1     0.000    R19C13A.FCO to    R19C13B.FCI BD00/UD01/un1_sdiv_cry_16
+FCITOFCO_D  ---     0.146    R19C13B.FCI to    R19C13B.FCO BD00/UD01/SLICE_15
+ROUTE         1     0.000    R19C13B.FCO to    R19C13C.FCI BD00/UD01/un1_sdiv_cry_18
+FCITOFCO_D  ---     0.146    R19C13C.FCI to    R19C13C.FCO BD00/UD01/SLICE_14
+ROUTE         1     0.000    R19C13C.FCO to    R19C13D.FCI BD00/UD01/un1_sdiv_cry_20
+FCITOF0_DE  ---     0.517    R19C13D.FCI to     R19C13D.F0 BD00/UD01/SLICE_13
+ROUTE         1     0.000     R19C13D.F0 to    R19C13D.DI0 BD00/UD01/sdiv_12[21] (to BD00/sclk)
+                  --------
+                   15.705   (44.0% logic, 56.0% route), 21 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_12:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C11A.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     2.216        OSC.OSC to    R19C13D.CLK BD00/sclk
+                  --------
+                    2.216   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report:   61.508MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "BD00/sclk" 2.080000 MHz  |             |             |
+;                                       |    2.080 MHz|   61.508 MHz|  21  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 3 clocks:
+
+Clock Domain: clk01_c   Source: BD00/UD02/SLICE_75.Q0   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: clk00_c   Source: BD00/UD01/SLICE_74.Q0   Loads: 100
+   No transfer within this clock domain is found
+
+Clock Domain: BD00/sclk   Source: BD00/UD00/OSCInst0.OSC   Loads: 26
+   Covered under: FREQUENCY NET "BD00/sclk" 2.080000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 13400 paths, 1 nets, and 1385 connections (85.92% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Thu Jun 03 17:15:08 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o bcd00_bcd0.twr -gui bcd00_bcd0.ncd bcd00_bcd0.prf 
+Design file:     bcd00_bcd0.ncd
+Preference file: bcd00_bcd0.prf
+Device,speed:    LCMXO2-7000HE,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "BD00/sclk" 2.080000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD02/sdiv[12]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD02/sdiv[12]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD02/SLICE_5 to BD00/UD02/SLICE_5 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD02/SLICE_5 to BD00/UD02/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R15C18C.CLK to     R15C18C.Q1 BD00/UD02/SLICE_5 (from BD00/sclk)
+ROUTE         3     0.132     R15C18C.Q1 to     R15C18C.A1 BD00/UD02/sdiv[12]
+CTOF_DEL    ---     0.101     R15C18C.A1 to     R15C18C.F1 BD00/UD02/SLICE_5
+ROUTE         1     0.000     R15C18C.F1 to    R15C18C.DI1 BD00/UD02/sdiv_12[12] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C18C.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C18C.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[7]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[7]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD01/SLICE_20 to BD00/UD01/SLICE_20 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_20 to BD00/UD01/SLICE_20:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R19C12A.CLK to     R19C12A.Q0 BD00/UD01/SLICE_20 (from BD00/sclk)
+ROUTE         2     0.132     R19C12A.Q0 to     R19C12A.A0 BD00/UD01/sdiv[7]
+CTOF_DEL    ---     0.101     R19C12A.A0 to     R19C12A.F0 BD00/UD01/SLICE_20
+ROUTE         1     0.000     R19C12A.F0 to    R19C12A.DI0 BD00/UD01/sdiv_12[7] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_20:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C12A.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_20:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C12A.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD02/sdiv[15]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD02/sdiv[15]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD02/SLICE_3 to BD00/UD02/SLICE_3 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD02/SLICE_3 to BD00/UD02/SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R15C19A.CLK to     R15C19A.Q0 BD00/UD02/SLICE_3 (from BD00/sclk)
+ROUTE         3     0.132     R15C19A.Q0 to     R15C19A.A0 BD00/UD02/sdiv[15]
+CTOF_DEL    ---     0.101     R15C19A.A0 to     R15C19A.F0 BD00/UD02/SLICE_3
+ROUTE         1     0.000     R15C19A.F0 to    R15C19A.DI0 BD00/UD02/sdiv_12[15] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C19A.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_3:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C19A.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD02/sdiv[6]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD02/sdiv[6]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD02/SLICE_8 to BD00/UD02/SLICE_8 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD02/SLICE_8 to BD00/UD02/SLICE_8:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R15C17D.CLK to     R15C17D.Q1 BD00/UD02/SLICE_8 (from BD00/sclk)
+ROUTE         2     0.132     R15C17D.Q1 to     R15C17D.A1 BD00/UD02/sdiv[6]
+CTOF_DEL    ---     0.101     R15C17D.A1 to     R15C17D.F1 BD00/UD02/SLICE_8
+ROUTE         1     0.000     R15C17D.F1 to    R15C17D.DI1 BD00/UD02/sdiv_12[6] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_8:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C17D.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_8:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C17D.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[2]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[2]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD01/SLICE_23 to BD00/UD01/SLICE_23 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_23 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R19C11B.CLK to     R19C11B.Q1 BD00/UD01/SLICE_23 (from BD00/sclk)
+ROUTE         2     0.132     R19C11B.Q1 to     R19C11B.A1 BD00/UD01/sdiv[2]
+CTOF_DEL    ---     0.101     R19C11B.A1 to     R19C11B.F1 BD00/UD01/SLICE_23
+ROUTE         1     0.000     R19C11B.F1 to    R19C11B.DI1 BD00/UD01/sdiv_12[2] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C11B.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C11B.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[6]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[6]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD01/SLICE_21 to BD00/UD01/SLICE_21 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_21 to BD00/UD01/SLICE_21:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R19C11D.CLK to     R19C11D.Q1 BD00/UD01/SLICE_21 (from BD00/sclk)
+ROUTE         2     0.132     R19C11D.Q1 to     R19C11D.A1 BD00/UD01/sdiv[6]
+CTOF_DEL    ---     0.101     R19C11D.A1 to     R19C11D.F1 BD00/UD01/SLICE_21
+ROUTE         1     0.000     R19C11D.F1 to    R19C11D.DI1 BD00/UD01/sdiv_12[6] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_21:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C11D.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_21:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C11D.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD02/sdiv[9]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD02/sdiv[9]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD02/SLICE_6 to BD00/UD02/SLICE_6 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD02/SLICE_6 to BD00/UD02/SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R15C18B.CLK to     R15C18B.Q0 BD00/UD02/SLICE_6 (from BD00/sclk)
+ROUTE         3     0.132     R15C18B.Q0 to     R15C18B.A0 BD00/UD02/sdiv[9]
+CTOF_DEL    ---     0.101     R15C18B.A0 to     R15C18B.F0 BD00/UD02/SLICE_6
+ROUTE         1     0.000     R15C18B.F0 to    R15C18B.DI0 BD00/UD02/sdiv_12[9] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C18B.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C18B.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[13]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[13]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD01/SLICE_17 to BD00/UD01/SLICE_17 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_17 to BD00/UD01/SLICE_17:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R19C12D.CLK to     R19C12D.Q0 BD00/UD01/SLICE_17 (from BD00/sclk)
+ROUTE         3     0.132     R19C12D.Q0 to     R19C12D.A0 BD00/UD01/sdiv[13]
+CTOF_DEL    ---     0.101     R19C12D.A0 to     R19C12D.F0 BD00/UD01/SLICE_17
+ROUTE         1     0.000     R19C12D.F0 to    R19C12D.DI0 BD00/UD01/sdiv_12[13] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_17:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C12D.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_17:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C12D.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD02/sdiv[7]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD02/sdiv[7]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD02/SLICE_7 to BD00/UD02/SLICE_7 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD02/SLICE_7 to BD00/UD02/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R15C18A.CLK to     R15C18A.Q0 BD00/UD02/SLICE_7 (from BD00/sclk)
+ROUTE         2     0.132     R15C18A.Q0 to     R15C18A.A0 BD00/UD02/sdiv[7]
+CTOF_DEL    ---     0.101     R15C18A.A0 to     R15C18A.F0 BD00/UD02/SLICE_7
+ROUTE         1     0.000     R15C18A.F0 to    R15C18A.DI0 BD00/UD02/sdiv_12[7] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C18A.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD02/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R15C18A.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              BD00/UD01/sdiv[12]  (from BD00/sclk +)
+   Destination:    FF         Data in        BD00/UD01/sdiv[12]  (to BD00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay BD00/UD01/SLICE_18 to BD00/UD01/SLICE_18 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path BD00/UD01/SLICE_18 to BD00/UD01/SLICE_18:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R19C12C.CLK to     R19C12C.Q1 BD00/UD01/SLICE_18 (from BD00/sclk)
+ROUTE         3     0.132     R19C12C.Q1 to     R19C12C.A1 BD00/UD01/sdiv[12]
+CTOF_DEL    ---     0.101     R19C12C.A1 to     R19C12C.F1 BD00/UD01/SLICE_18
+ROUTE         1     0.000     R19C12C.F1 to    R19C12C.DI1 BD00/UD01/sdiv_12[12] (to BD00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_18:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C12C.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path BD00/UD00/OSCInst0 to BD00/UD01/SLICE_18:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        26     0.894        OSC.OSC to    R19C12C.CLK BD00/sclk
+                  --------
+                    0.894   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "BD00/sclk" 2.080000 MHz  |             |             |
+;                                       |     0.000 ns|     0.379 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 3 clocks:
+
+Clock Domain: clk01_c   Source: BD00/UD02/SLICE_75.Q0   Loads: 6
+   No transfer within this clock domain is found
+
+Clock Domain: clk00_c   Source: BD00/UD01/SLICE_74.Q0   Loads: 100
+   No transfer within this clock domain is found
+
+Clock Domain: BD00/sclk   Source: BD00/UD00/OSCInst0.OSC   Loads: 26
+   Covered under: FREQUENCY NET "BD00/sclk" 2.080000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 13400 paths, 1 nets, and 1385 connections (85.92% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

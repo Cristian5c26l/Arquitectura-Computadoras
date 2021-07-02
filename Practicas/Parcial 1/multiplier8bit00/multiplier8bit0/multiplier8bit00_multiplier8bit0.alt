@@ -1,0 +1,40 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Mar 20 13:15:34 2021 *
+NOTE DESIGN NAME: multiplier8bit00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS R[0] : 132 : out *
+NOTE PINS A[0] : 56 : in *
+NOTE PINS R[15] : 127 : out *
+NOTE PINS R[14] : 125 : out *
+NOTE PINS R[13] : 121 : out *
+NOTE PINS R[12] : 119 : out *
+NOTE PINS R[11] : 115 : out *
+NOTE PINS R[10] : 113 : out *
+NOTE PINS R[9] : 111 : out *
+NOTE PINS R[8] : 109 : out *
+NOTE PINS R[7] : 128 : out *
+NOTE PINS R[6] : 126 : out *
+NOTE PINS R[5] : 122 : out *
+NOTE PINS R[4] : 120 : out *
+NOTE PINS R[3] : 117 : out *
+NOTE PINS R[2] : 114 : out *
+NOTE PINS R[1] : 133 : out *
+NOTE PINS B[7] : 38 : in *
+NOTE PINS B[6] : 39 : in *
+NOTE PINS B[5] : 42 : in *
+NOTE PINS B[4] : 43 : in *
+NOTE PINS B[3] : 47 : in *
+NOTE PINS B[2] : 48 : in *
+NOTE PINS B[1] : 52 : in *
+NOTE PINS B[0] : 54 : in *
+NOTE PINS A[7] : 40 : in *
+NOTE PINS A[6] : 41 : in *
+NOTE PINS A[5] : 44 : in *
+NOTE PINS A[4] : 45 : in *
+NOTE PINS A[3] : 49 : in *
+NOTE PINS A[2] : 50 : in *
+NOTE PINS A[1] : 55 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

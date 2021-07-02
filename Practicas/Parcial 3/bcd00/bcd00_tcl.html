@@ -1,0 +1,85 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn210603191922"></A><B><U><big>pn210603191922</big></U></B>
+#Start recording tcl command: 6/3/2021 15:17:33
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00; Project name: bcd00
+prj_project new -name "bcd00" -impl "bcd0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/div00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/osc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/packageosc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/ac800.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source"
+file copy -force -- "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/ac1200.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/checkCode00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/coderNibbles00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/compadd00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source"
+file copy -force -- "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/contIter00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/contring00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/init00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/loadData00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/mux00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source"
+file copy -force -- "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/packagebcd00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/pc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/progMem00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/shift800.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/shift1200.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source"
+file copy -force -- "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/sust00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/uc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/div00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/osc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/packageosc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/ac800.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/ac1200.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/bcd00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/checkCode00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/coderNibbles00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/compadd00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/contIter00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/contring00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/init00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/loadData00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/mux00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/packagebcd00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/pc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/progMem00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/shift800.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/shift1200.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/sust00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/source/uc00.vhdl"
+prj_project save
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/div01.vhdl"
+prj_run Export -impl bcd0 -task Jedecgen
+prj_run Export -impl bcd0 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/bcd0.xcf"
+prj_src add -exclude "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/bcd0.xcf"
+prj_src enable "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/bcd0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/bcd00/bcd0/bcd0.xcf"
+pgr_project close
+#Stop recording: 6/3/2021 19:19:22
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

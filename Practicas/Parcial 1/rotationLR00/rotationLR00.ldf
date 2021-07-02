@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="rotationLR00" device="LCMXO2-7000HE-5TG144C" default_implementation="rotationLR0">
+    <Options/>
+    <Implementation title="rotationLR0" dir="rotationLR0" description="rotationLR0" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topshiftrotationLR00"/>
+        <Source name="../osc00VHDL/div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../osc00VHDL/osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../osc00VHDL/oscint00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../osc00VHDL/packageosc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shiftrotationLR00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packageshiftRL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topshiftrotationLR00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topshiftrotationLR00"/>
+        </Source>
+        <Source name="rotationLR0/rotationLR0.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="rotationLR00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="rotationLR001.sty"/>
+</BaliProject>

@@ -1,0 +1,9 @@
+#Start recording tcl command: 3/25/2021 14:24:45
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00; Project name: barrelRL00
+prj_project new -name "barrelRL00" -impl "barrelRL0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/div00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/osc00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/shiftbarrelRL00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/packageshiftRL00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/barrelRL00/topshiftbarrelRL00.vhdl"
+#Stop recording: 3/25/2021 18:24:02

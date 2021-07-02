@@ -1,0 +1,16 @@
+#Start recording tcl command: 5/29/2021 20:23:59
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00; Project name: lcd00
+prj_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00/lcd00.ldf"
+pgr_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00/lcd00/lcd00.xcf"
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00/lcd00/lcd00.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00/lcd00/lcd00.xcf"
+prj_run Export -impl lcd00 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00/lcd00/lcd00.xcf"
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00/lcd00/lcd00.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ldc00/lcd00/lcd00.xcf"
+pgr_project close
+#Stop recording: 5/30/2021 00:27:22

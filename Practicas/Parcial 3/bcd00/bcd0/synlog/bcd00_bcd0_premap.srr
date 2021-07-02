@@ -1,0 +1,146 @@
+# Thu Jun  3 15:33:46 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : bcd0
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\bcd00_bcd0_scck.rpt 
+See clock summary report "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\bcd00_bcd0_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 142MB)
+
+@N: FX493 |Applying initial value "0" on instance aux0.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance aux1.
+@N: FX493 |Applying initial value "0" on instance aux.
+@N: FX493 |Applying initial value "0" on instance aux.
+@N: FX493 |Applying initial value "0" on instance aux.
+@N: FX493 |Applying initial value "0" on instance aux.
+@N: FX493 |Applying initial value "0" on instance aux.
+@N: FX493 |Applying initial value "0" on instance aux.
+@N: FX493 |Applying initial value "0" on instance aux.
+@N: FX493 |Applying initial value "0" on instance aux0.
+@N: FX493 |Applying initial value "0" on instance aux0.
+@N: FX493 |Applying initial value "0" on instance aux1.
+@N: FX493 |Applying initial value "0" on instance aux3.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist bcd00 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+
+
+Clock Summary
+******************
+
+          Start                               Requested     Requested     Clock                                              Clock                   Clock
+Level     Clock                               Frequency     Period        Type                                               Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       oscint00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                           Inferred_clkgroup_0     46   
+1 .         div00|oscout_derived_clock        2.1 MHz       480.769       derived (from oscint00|osc_int_inferred_clock)     Inferred_clkgroup_0     215  
+1 .         div01|oscout_derived_clock        2.1 MHz       480.769       derived (from oscint00|osc_int_inferred_clock)     Inferred_clkgroup_0     8    
+==========================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                    Clock     Source                           Clock Pin                Non-clock Pin     Non-clock Pin
+Clock                               Load      Pin                              Seq Example              Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------------
+oscint00|osc_int_inferred_clock     46        BD00.UD00.OSCInst0.OSC(OSCH)     BD00.UD02.oscout.C       -                 -            
+div00|oscout_derived_clock          215       BD00.UD01.oscout.Q[0](dffe)      BD13.outFlagPM.C         -                 -            
+div01|oscout_derived_clock          8         BD00.UD02.oscout.Q[0](dffe)      BD14.sintRing[3:0].C     -                 -            
+=======================================================================================================================================
+
+@W: MT529 :"c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 3\practicas\bcd00\bcd0\source\div00.vhdl":21:2:21:3|Found inferred clock oscint00|osc_int_inferred_clock which controls 46 sequential elements including BD00.UD01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 46 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 223 clock pin(s) of sequential element(s)
+0 instances converted, 223 sequential instances remain driven by gated/generated clocks
+
+================================= Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance     
+---------------------------------------------------------------------------------------------------
+@KP:ckid0_4       BD00.UD00.OSCInst0.OSC     OSCH                   46         BD00.UD02.sdiv[21:0]
+===================================================================================================
+=================================================================== Gated/Generated Clocks ===================================================================
+Clock Tree ID     Driving Element           Drive Element Type     Unconverted Fanout     Sample Instance           Explanation                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       BD00.UD02.oscout.Q[0]     dffe                   8                      BD14.outr[3:0]            Derived clock on input (not legal for GCC)
+@KP:ckid0_2       BD00.UD01.oscout.Q[0]     dffe                   215                    BD13.outcodePM_1[2:0]     Derived clock on input (not legal for GCC)
+==============================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 174MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 89MB peak: 175MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Jun  3 15:33:49 2021
+
+###########################################################]

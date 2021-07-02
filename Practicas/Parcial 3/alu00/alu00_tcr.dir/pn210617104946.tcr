@@ -1,0 +1,7 @@
+#Start recording tcl command: 6/17/2021 10:42:12
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00; Project name: alu00
+prj_project new -name "alu00" -impl "alu0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/div00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/osc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 1/Practicas/osc00VHDL/packageosc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/source"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/source/div00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/source/osc00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/source/oscint00.vhdl" "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/source/packageosc00.vhdl"
+prj_project save
+#Stop recording: 6/17/2021 10:49:46

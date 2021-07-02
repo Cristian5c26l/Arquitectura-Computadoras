@@ -1,0 +1,61 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : bkey0
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+4        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\coder00.vhdl (2021-04-20 23:49:13, 2021-04-21 00:04:14)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+0        work.coder00.coder0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\coder00.vhdl (2021-04-20 23:49:13, 2021-04-21 00:04:14) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 18
+FID:  path (timestamp)
+0        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\bkey0\source\div00.vhdl (2021-03-22 10:49:19)
+1        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\bkey0\source\osc00.vhdl (2021-03-22 10:49:43)
+2        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\bkey0\source\oscint00.vhdl (2021-03-20 09:09:07)
+3        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\bkey0\source\packageosc00.vhdl (2021-03-22 10:49:30)
+5        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\contRing00.vhdl (2021-04-20 23:26:32)
+6        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\key00.vhdl (2021-04-20 23:28:42)
+7        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\bkey00\packagekey00.vhdl (2021-04-20 23:28:10)
+8        C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+9        C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd (2020-10-29 10:20:44)
+10       C:\lscc\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 10:23:10)
+11       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 10:23:10)
+12       C:\lscc\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 17:26:20)
+13       C:\lscc\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 10:23:10)
+14       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 10:23:10)
+15       C:\lscc\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 10:23:10)
+16       C:\lscc\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 10:23:10)
+17       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 10:23:10)
+18       C:\lscc\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 10:23:10)
+
+*******************************************************************
+Unchanged modules: 10
+MID:  lib.cell.view
+2        work.contring00.contring0
+3        work.contring00.vhdl
+4        work.div00.div0
+5        work.div00.vhdl
+6        work.key00.key0
+7        work.key00.vhdl
+8        work.osc00.osc0
+9        work.osc00.vhdl
+10       work.oscint00.oscint0
+11       work.oscint00.vhdl

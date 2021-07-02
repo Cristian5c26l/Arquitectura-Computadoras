@@ -1,0 +1,194 @@
+----------------------------------------------------------------------
+Report for cell alu00.alu0
+
+Register bits: 128 of 6864 (2%)
+PIC Latch:       0
+I/O cells:       39
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        1       100.0
+                              CCU2D       12       100.0
+                            FD1P3AX       64       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       47       100.0
+                                GSR        1       100.0
+                                 IB       28       100.0
+                           IFS1P3DX        8       100.0
+                                INV       19       100.0
+                                 OB       10       100.0
+                           OFS1P3IX        8       100.0
+                           ORCALUT4      200       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI       11       100.0
+                                VLO       12       100.0
+SUB MODULES 
+                               ac00        1       100.0
+                             anda00        1       100.0
+                          buffera00        1       100.0
+                              div00        1       100.0
+                            nanda00        1       100.0
+                             nora00        1       100.0
+                             nota00        1       100.0
+                              ora00        1       100.0
+                              osc00        1       100.0
+                           oscint00        1       100.0
+                            xnora00        1       100.0
+                             xora00        1       100.0
+                            
+                         TOTAL           436           
+----------------------------------------------------------------------
+Report for cell anda00.netlist
+     Instance path:  AL01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        9        14.1
+                            FD1S3IX        3         6.4
+                                INV        1         5.3
+                           ORCALUT4       15         7.5
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            30           
+----------------------------------------------------------------------
+Report for cell ora00.netlist
+     Instance path:  AL02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        9        14.1
+                            FD1S3IX        3         6.4
+                                INV        1         5.3
+                           ORCALUT4       13         6.5
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            28           
+----------------------------------------------------------------------
+Report for cell xora00.netlist
+     Instance path:  AL03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        9        14.1
+                            FD1S3IX        3         6.4
+                                INV        1         5.3
+                           ORCALUT4       47        23.5
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            62           
+----------------------------------------------------------------------
+Report for cell nanda00.netlist
+     Instance path:  AL04
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        9        14.1
+                            FD1S3IX        3         6.4
+                                INV        1         5.3
+                           ORCALUT4       14         7.0
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            29           
+----------------------------------------------------------------------
+Report for cell nora00.netlist
+     Instance path:  AL05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        9        14.1
+                            FD1S3IX        3         6.4
+                                INV        1         5.3
+                           ORCALUT4       16         8.0
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            31           
+----------------------------------------------------------------------
+Report for cell xnora00.netlist
+     Instance path:  AL06
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        9        14.1
+                            FD1S3IX        3         6.4
+                                INV        1         5.3
+                           ORCALUT4       20        10.0
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            35           
+----------------------------------------------------------------------
+Report for cell nota00.netlist
+     Instance path:  AL07
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        9        14.1
+                            FD1S3IX        3         6.4
+                                INV        9        47.4
+                           ORCALUT4        8         4.0
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            31           
+----------------------------------------------------------------------
+Report for cell buffera00.netlist
+     Instance path:  AL08
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        1         1.6
+                            FD1S3IX        3         6.4
+                                INV        1         5.3
+                           ORCALUT4        6         3.0
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ac00.netlist
+     Instance path:  AL09
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3IX        1         2.1
+                                INV        1         5.3
+                           ORCALUT4        2         1.0
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  AL00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       22        46.8
+                           ORCALUT4       51        25.5
+                               OSCH        1       100.0
+                                VHI        1         9.1
+                                VLO        2        16.7
+SUB MODULES 
+                              div00        1       100.0
+                           oscint00        1       100.0
+                            
+                         TOTAL            92           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  AL00.OSC01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       22        46.8
+                           ORCALUT4       51        25.5
+                                VHI        1         9.1
+                                VLO        1         8.3
+                            
+                         TOTAL            88           
+----------------------------------------------------------------------
+Report for cell oscint00.netlist
+     Instance path:  AL00.OSC00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1         8.3
+                            
+                         TOTAL             2           

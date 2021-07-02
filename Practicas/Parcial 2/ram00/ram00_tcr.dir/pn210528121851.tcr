@@ -1,0 +1,8 @@
+#Start recording tcl command: 5/28/2021 10:00:25
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ram00propia/ram00; Project name: ram00
+prj_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ram00propia/ram00/ram00.ldf"
+pgr_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ram00propia/ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ram00propia/ram00/ram0/ram0.xcf"
+pgr_project close
+#Stop recording: 5/28/2021 12:18:51

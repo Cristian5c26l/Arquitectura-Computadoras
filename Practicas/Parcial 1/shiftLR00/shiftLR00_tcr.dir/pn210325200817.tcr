@@ -1,0 +1,9 @@
+#Start recording tcl command: 3/25/2021 18:35:52
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/shiftLR00; Project name: shiftLR00
+prj_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/shiftLR00/shiftLR00.ldf"
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/shiftLR00/shiftLR0/shiftLR0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Parcial 1/Practicas/shiftLR00/shiftLR0/shiftLR0.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 3/25/2021 20:08:17

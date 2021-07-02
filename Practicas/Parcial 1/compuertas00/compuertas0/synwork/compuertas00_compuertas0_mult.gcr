@@ -1,0 +1,9 @@
+i un41_y_buf
+m 0 0
+u 8 8
+n ckid0_0 {t:Y[7].C} Clock source is invalid for GCC
+p {t:un41_y.OUT}{t:Y[7].C}
+e ckid0_0 {t:Y[7].C} lat
+d ckid0_0 {t:un41_y.OUT} or Unable to find a clock in input cone
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

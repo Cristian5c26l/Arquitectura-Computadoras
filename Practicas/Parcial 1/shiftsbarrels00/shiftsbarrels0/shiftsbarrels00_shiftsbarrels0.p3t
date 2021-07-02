@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "shiftsbarrels00_shiftsbarrels0.log"
+-o "shiftsbarrels00_shiftsbarrels0.csv"
+-pr "shiftsbarrels00_shiftsbarrels0.prf"

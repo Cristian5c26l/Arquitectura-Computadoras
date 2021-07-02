@@ -1,0 +1,36 @@
+#Start recording tcl command: 3/1/2021 10:46:59
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00; Project name: and00
+prj_project new -name "and00" -impl "and0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and00.vhdl"
+prj_run Export -impl and0 -task Jedecgen
+prj_run Export -impl and0 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+prj_src add -exclude "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+prj_src enable "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/and00/and0/and0.xcf"
+pgr_program set -port FTUSB-1
+pgr_project close
+#Stop recording: 3/1/2021 17:40:54

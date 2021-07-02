@@ -1,0 +1,72 @@
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram00.vhdl":7:7:7:11|Synthesizing work.ram00.ram0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\muxram00.vhdl":6:7:6:14|Synthesizing work.muxram00.muxram0.
+Post processing for work.muxram00.muxram0
+Running optimization stage 1 on muxram00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\contRead00.vhdl":9:7:9:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\contRead00.vhdl":37:6:37:16|Removing redundant assignment.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\memram00.vhdl":8:7:8:14|Synthesizing work.memram00.memram0.
+Post processing for work.memram00.memram0
+Running optimization stage 1 on memram00 .......
+@N: CL134 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\memram00.vhdl":23:7:23:11|Found RAM sword, depth=64, width=7
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":56:8:56:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":66:8:66:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":76:8:76:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":86:8:86:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":103:8:103:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":113:8:113:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":123:8:123:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":133:8:133:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":150:8:150:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":160:8:160:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":170:8:170:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":180:8:180:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":197:8:197:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":207:8:207:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":217:8:217:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\coder00.vhdl":227:8:227:20|Removing redundant assignment.
+Post processing for work.coder00.coder0
+Running optimization stage 1 on coder00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+Running optimization stage 1 on contring00 .......
+@W: CL279 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\contring00.vhdl":20:2:20:3|Pruning register bits 2 to 0 of sshift(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\div00.vhdl":100:6:100:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.ram00.ram0
+Running optimization stage 1 on ram00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coder00 .......
+Running optimization stage 2 on memram00 .......
+Running optimization stage 2 on contRead00 .......
+Running optimization stage 2 on muxram00 .......
+Running optimization stage 2 on ram00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00propia\ram00\ram0\synwork\layer0.rt.csv
+

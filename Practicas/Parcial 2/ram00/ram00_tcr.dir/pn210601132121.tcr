@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/1/2021 12:45:05
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ram00propia/ram00; Project name: ram00
+prj_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 2/Practicas/ram00propia/ram00/ram00.ldf"
+prj_project close
+#Stop recording: 6/1/2021 13:21:21

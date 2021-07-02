@@ -1,0 +1,14 @@
+#Start recording tcl command: 3/4/2021 10:09:27
+#Project Location: C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/compuertas00; Project name: compuertas00
+prj_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/compuertas00/compuertas00.ldf"
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/compuertas00/compuertas0/compuertas0.xcf"
+pgr_project close
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/compuertas00/compuertas0/compuertas0.xcf"
+pgr_project close
+prj_run Export -impl compuertas0 -task Jedecgen
+prj_run Export -impl compuertas0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/compuertas00/compuertas0/compuertas0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre 2021 - 2/Arquitectura de computadoras/Practicas/compuertas00/compuertas0/compuertas0.xcf"
+pgr_project close
+#Stop recording: 3/4/2021 13:28:10

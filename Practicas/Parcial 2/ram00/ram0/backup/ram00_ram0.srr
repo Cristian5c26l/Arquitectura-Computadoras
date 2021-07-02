@@ -1,0 +1,388 @@
+#Build: Synplify Pro (R) Q-2020.03L-SP1, Build 182R, Oct 29 2020
+#install: C:\lscc\diamond\3.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DELL-CRISTIAN
+
+# Tue Apr 27 10:59:10 2021
+
+#Implementation: ram0
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : ram0
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : ram0
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram00.vhdl":7:7:7:11|Top entity is set to ram00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram00.vhdl":7:7:7:11|Synthesizing work.ram00.ram0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\muxram00.vhdl":6:7:6:14|Synthesizing work.muxram00.muxram0.
+Post processing for work.muxram00.muxram0
+Running optimization stage 1 on muxram00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\contRead00.vhdl":9:7:9:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\contRead00.vhdl":37:6:37:16|Removing redundant assignment.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\memram00.vhdl":8:7:8:14|Synthesizing work.memram00.memram0.
+Post processing for work.memram00.memram0
+Running optimization stage 1 on memram00 .......
+@N: CL134 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\memram00.vhdl":23:7:23:11|Found RAM sword, depth=64, width=7
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":56:8:56:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":66:8:66:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":76:8:76:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":86:8:86:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":103:8:103:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":113:8:113:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":123:8:123:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":133:8:133:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":150:8:150:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":160:8:160:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":170:8:170:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":180:8:180:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":197:8:197:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":207:8:207:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":217:8:217:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\coder00.vhdl":227:8:227:20|Removing redundant assignment.
+Post processing for work.coder00.coder0
+Running optimization stage 1 on coder00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+Running optimization stage 1 on contring00 .......
+@W: CL279 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\contring00.vhdl":20:2:20:3|Pruning register bits 2 to 0 of sshift(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\div00.vhdl":100:6:100:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.ram00.ram0
+Running optimization stage 1 on ram00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coder00 .......
+Running optimization stage 2 on memram00 .......
+Running optimization stage 2 on contRead00 .......
+Running optimization stage 2 on muxram00 .......
+Running optimization stage 2 on ram00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 100MB peak: 100MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Tue Apr 27 10:59:13 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : ram0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Apr 27 10:59:13 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\synwork\ram00_ram0_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 29MB peak: 30MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Tue Apr 27 10:59:13 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : ram0
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Apr 27 10:59:14 2021
+
+###########################################################]
+Premap Report
+
+# Tue Apr 27 10:59:15 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : ram0
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\ram00_ram0_scck.rpt 
+See clock summary report "C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ram00\ram0\ram00_ram0_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 138MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+@N: FX493 |Applying initial value "0" on instance aux1.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance aux2.
+@N: FX493 |Applying initial value "0" on instance aux3.
+@N: FX493 |Applying initial value "0" on instance aux4.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist ram00 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+
+Clock Summary
+******************
+
+          Start                               Requested     Requested     Clock                                              Clock                   Clock
+Level     Clock                               Frequency     Period        Type                                               Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       oscint00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                           Inferred_clkgroup_0     23   
+1 .         div00|oscout_derived_clock        2.1 MHz       480.769       derived (from oscint00|osc_int_inferred_clock)     Inferred_clkgroup_0     43   
+==========================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                    Clock     Source                            Clock Pin                   Non-clock Pin     Non-clock Pin
+Clock                               Load      Pin                               Seq Example                 Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------------------------------------------
+oscint00|osc_int_inferred_clock     23        RA00.OSC00.OSCInst0.OSC(OSCH)     RA00.OSC01.oscout.C         -                 -            
+div00|oscout_derived_clock          43        RA00.OSC01.oscout.Q[0](dffe)      RA04.outcontRead[5:0].C     -                 -            
+===========================================================================================================================================
+
+@W: MT529 :"c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ram00\ram0\source\div00.vhdl":21:2:21:3|Found inferred clock oscint00|osc_int_inferred_clock which controls 23 sequential elements including RA00.OSC01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 23 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 37 clock pin(s) of sequential element(s)
+0 instances converted, 37 sequential instances remain driven by gated/generated clocks
+
+================================== Non-Gated/Non-Generated Clocks ===================================
+Clock Tree ID     Driving Element             Drive Element Type     Fanout     Sample Instance      
+-----------------------------------------------------------------------------------------------------
+@KP:ckid0_2       RA00.OSC00.OSCInst0.OSC     OSCH                   23         RA00.OSC01.sdiv[21:0]
+=====================================================================================================
+=================================================================== Gated/Generated Clocks ====================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Unconverted Fanout     Sample Instance           Explanation                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       RA00.OSC01.oscout.Q[0]     dffe                   37                     RA04.outcontRead[5:0]     Derived clock on input (not legal for GCC)
+===============================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 92MB peak: 174MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Apr 27 10:59:17 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Apr 27 10:59:17 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : ram0
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@A: BN321 |Found multiple drivers on net outword0[0] (in view: work.ram00(ram0)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: Net outword0[0] (in view: work.ram00(ram0)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:Q[0] inst:RA03.outwordra[6:0] of PrimLib.dffe(prim)
+Connection 2: Direction is (Output ) pin:OUT[0] inst:RA05.outwordmux[6:0] of PrimLib.pmux(prim)
+Connection 3: Direction is (Output ) pin:outcoderc[0] inst:RA02 of work.coder00(coder0)
+@E: BN314 :"c:\users\crist\desktop\semestre20212\arquitectura de computadoras\parcial 2\practicas\ram00\ram00.vhdl":7:7:7:11|Net outword0[0] (in view: work.ram00(ram0)) has multiple drivers 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Apr 27 10:59:18 2021
+
+###########################################################]

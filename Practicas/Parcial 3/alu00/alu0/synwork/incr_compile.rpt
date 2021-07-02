@@ -1,0 +1,82 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : alu0
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+0        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\ac00.vhdl (2021-06-22 11:22:23, 2021-06-22 11:57:02)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+0        work.ac00.ac0 may have changed because the following files changed:
+                        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\ac00.vhdl (2021-06-22 11:22:23, 2021-06-22 11:57:02) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 25
+FID:  path (timestamp)
+1        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu00.vhdl (2021-06-22 10:36:27)
+2        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu0\source\div00.vhdl (2021-03-22 10:49:19)
+3        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu0\source\osc00.vhdl (2021-03-22 10:49:43)
+4        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu0\source\oscint00.vhdl (2021-03-20 09:09:07)
+5        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\alu0\source\packageosc00.vhdl (2021-03-22 10:49:30)
+6        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\anda00.vhdl (2021-06-21 11:09:45)
+7        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\buffera00.vhdl (2021-06-22 10:34:56)
+8        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\nanda00.vhdl (2021-06-22 10:19:08)
+9        C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\nora00.vhdl (2021-06-22 10:19:13)
+10       C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\nota00.vhdl (2021-06-22 10:30:14)
+11       C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\ora00.vhdl (2021-06-22 09:41:12)
+12       C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\packagealu00.vhdl (2021-06-22 10:35:33)
+13       C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\xnora00.vhdl (2021-06-22 10:25:12)
+14       C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\alu00\xora00.vhdl (2021-06-22 10:09:08)
+15       C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+16       C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd (2020-10-29 10:20:44)
+17       C:\lscc\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 10:23:10)
+18       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 10:23:10)
+19       C:\lscc\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 17:26:20)
+20       C:\lscc\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 10:23:10)
+21       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 10:23:10)
+22       C:\lscc\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 10:23:10)
+23       C:\lscc\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 10:23:10)
+24       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 10:23:10)
+25       C:\lscc\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 10:23:10)
+
+*******************************************************************
+Unchanged modules: 24
+MID:  lib.cell.view
+2        work.alu00.alu0
+3        work.alu00.vhdl
+4        work.anda00.anda0
+5        work.anda00.vhdl
+6        work.buffera00.buffera0
+7        work.buffera00.vhdl
+8        work.div00.div0
+9        work.div00.vhdl
+10       work.nanda00.nanda0
+11       work.nanda00.vhdl
+12       work.nora00.nora0
+13       work.nora00.vhdl
+14       work.nota00.nota0
+15       work.nota00.vhdl
+16       work.ora00.ora0
+17       work.ora00.vhdl
+18       work.osc00.osc0
+19       work.osc00.vhdl
+20       work.oscint00.oscint0
+21       work.oscint00.vhdl
+22       work.xnora00.vhdl
+23       work.xnora00.xnora0
+24       work.xora00.vhdl
+25       work.xora00.xora0

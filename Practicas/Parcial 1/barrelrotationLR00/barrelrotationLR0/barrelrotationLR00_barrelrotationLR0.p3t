@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "barrelrotationLR00_barrelrotationLR0.log"
+-o "barrelrotationLR00_barrelrotationLR0.csv"
+-pr "barrelrotationLR00_barrelrotationLR0.prf"

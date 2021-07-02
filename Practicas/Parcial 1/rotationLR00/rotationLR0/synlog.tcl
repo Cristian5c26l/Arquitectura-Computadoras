@@ -1,0 +1,1 @@
+run_tcl -fg rotationLR00_rotationLR0_synplify.tcl

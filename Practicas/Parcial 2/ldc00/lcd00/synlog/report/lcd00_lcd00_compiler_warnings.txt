@@ -1,0 +1,9 @@
+@W: CD638 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl":28:13:28:16|Signal srsc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL260 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdData00.vhdl":42:3:42:4|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl":27:2:27:3|Pruning register bit 6 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL240 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl":28:13:28:16|Signal sRSc is floating; a simulation mismatch is possible.
+@W: CL167 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl":68:2:68:5|Input rscd of instance LC05 is floating
+@W: CL138 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl":27:4:27:5|Removing register 'RWcd' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl":27:4:27:5|Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

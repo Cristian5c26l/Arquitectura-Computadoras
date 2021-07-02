@@ -1,0 +1,2 @@
+@W: CD638 :"C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier4bit00\multiplier4bit00.vhdl":69:7:69:11|Signal sac11 is undriven. Either assign the signal a value or remove the signal declaration.
+

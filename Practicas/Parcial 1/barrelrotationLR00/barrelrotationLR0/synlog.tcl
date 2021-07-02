@@ -1,0 +1,1 @@
+run_tcl -fg barrelrotationLR00_barrelrotationLR0_synplify.tcl

@@ -1,0 +1,3 @@
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL260 :"C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\barrelLR00\shiftbarrelLR00.vhdl":24:2:24:3|Pruning register bit 3 of scont(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

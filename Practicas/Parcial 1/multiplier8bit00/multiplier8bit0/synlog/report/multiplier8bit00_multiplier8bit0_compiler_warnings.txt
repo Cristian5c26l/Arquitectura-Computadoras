@@ -1,0 +1,2 @@
+@W: CD638 :"C:\Users\crist\Desktop\Semestre 2021 - 2\Arquitectura de computadoras\Parcial 1\Practicas\multiplier8bit00\multiplier8bit00.vhdl":224:7:224:11|Signal sac55 is undriven. Either assign the signal a value or remove the signal declaration.
+

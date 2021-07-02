@@ -1,0 +1,170 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : lcd00
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : lcd00
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl":9:7:9:14|Top entity is set to toplcd00.
+File C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\oscint00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\packageosc00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl changed - recompiling
+File C:\lscc\diamond\3.12\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdcontconfig00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdData00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdmux00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\packagelcd00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\osc00.vhdl changed - recompiling
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl changed - recompiling
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
+@W: CD638 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl":28:13:28:16|Signal srsc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdmux00.vhdl":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+Running optimization stage 1 on lcdmux00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdData00.vhdl":10:7:10:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+Running optimization stage 1 on lcdData00 .......
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdData00.vhdl":42:3:42:4|Register bit outWordd(7) is always 0.
+@W: CL260 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdData00.vhdl":42:3:42:4|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl":10:7:10:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl":46:7:46:15|Removing redundant assignment.
+Post processing for work.lcdcontdata00.lcdcontdata0
+Running optimization stage 1 on lcdContData00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl":10:7:10:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+Running optimization stage 1 on lcdconfig00 .......
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl":27:2:27:3|Register bit RSc is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl":27:2:27:3|Register bit RWc is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl":27:2:27:3|Register bit outWordc(6) is always 0.
+@W: CL260 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdconfig00txt.vhdl":27:2:27:3|Pruning register bit 6 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdcontconfig00.vhdl":10:7:10:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdcontconfig00.vhdl":33:6:33:20|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+Running optimization stage 1 on lcdcontconfig00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\div00.vhdl":100:6:100:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 1\Practicas\osc00VHDL\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.toplcd00.toplcd0
+Running optimization stage 1 on toplcd00 .......
+@W: CL240 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl":28:13:28:16|Signal sRSc is floating; a simulation mismatch is possible.
+@W: CL167 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\toplcd00.vhdl":68:2:68:5|Input rscd of instance LC05 is floating
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on lcdcontconfig00 .......
+Running optimization stage 2 on lcdconfig00 .......
+Running optimization stage 2 on lcdContData00 .......
+@W: CL138 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl":27:4:27:5|Removing register 'RWcd' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl":27:4:27:5|Register bit RScd is always 1.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl":27:4:27:5|Register bit outcontcd(4) is always 0.
+@W: CL260 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcdContData00.vhdl":27:4:27:5|Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on lcdData00 .......
+Running optimization stage 2 on lcdmux00 .......
+Running optimization stage 2 on toplcd00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcd00\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 99MB peak: 100MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 20 19:25:11 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DELL-CRISTIAN
+
+Implementation : lcd00
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+File C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcd00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 20 19:25:11 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 2\Practicas\ldc00\lcd00\synwork\lcd00_lcd00_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu May 20 19:25:11 2021
+
+###########################################################]

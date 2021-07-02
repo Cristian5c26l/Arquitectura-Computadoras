@@ -1,0 +1,83 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Jun 03 17:15:13 2021 *
+NOTE DESIGN NAME: bcd00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outFlagI80 : 9 : inout *
+NOTE PINS clk00 : 2 : out *
+NOTE PINS cdiv00[0] : 38 : in *
+NOTE PINS outBCD0[6] : 120 : out *
+NOTE PINS outBCD0[5] : 119 : out *
+NOTE PINS outBCD0[4] : 122 : out *
+NOTE PINS outBCD0[3] : 121 : out *
+NOTE PINS outBCD0[2] : 126 : out *
+NOTE PINS outBCD0[1] : 125 : out *
+NOTE PINS outBCD0[0] : 128 : out *
+NOTE PINS outTransist0[3] : 141 : out *
+NOTE PINS outTransist0[2] : 140 : out *
+NOTE PINS outTransist0[1] : 138 : out *
+NOTE PINS outTransist0[0] : 139 : out *
+NOTE PINS outAC80[7] : 117 : out *
+NOTE PINS outAC80[6] : 115 : out *
+NOTE PINS outAC80[5] : 133 : out *
+NOTE PINS outAC80[4] : 132 : out *
+NOTE PINS outAC80[3] : 143 : out *
+NOTE PINS outAC80[2] : 142 : out *
+NOTE PINS outAC80[1] : 1 : out *
+NOTE PINS outAC80[0] : 3 : out *
+NOTE PINS outAC120[11] : 76 : out *
+NOTE PINS outAC120[10] : 78 : out *
+NOTE PINS outAC120[9] : 82 : out *
+NOTE PINS outAC120[8] : 96 : out *
+NOTE PINS outAC120[7] : 95 : out *
+NOTE PINS outAC120[6] : 93 : out *
+NOTE PINS outAC120[5] : 110 : out *
+NOTE PINS outAC120[4] : 109 : out *
+NOTE PINS outAC120[3] : 112 : out *
+NOTE PINS outAC120[2] : 111 : out *
+NOTE PINS outAC120[1] : 114 : out *
+NOTE PINS outAC120[0] : 113 : out *
+NOTE PINS outPC0[3] : 26 : out *
+NOTE PINS outPC0[2] : 24 : out *
+NOTE PINS outPC0[1] : 22 : out *
+NOTE PINS outPC0[0] : 20 : out *
+NOTE PINS outFlagCode0 : 11 : out *
+NOTE PINS outCode0[3] : 34 : out *
+NOTE PINS outCode0[2] : 35 : out *
+NOTE PINS outCode0[1] : 33 : out *
+NOTE PINS outCode0[0] : 28 : out *
+NOTE PINS outcontIter0[3] : 14 : out *
+NOTE PINS outcontIter0[2] : 12 : out *
+NOTE PINS outcontIter0[1] : 10 : out *
+NOTE PINS outcontIter0[0] : 6 : out *
+NOTE PINS outFlagPC0 : 25 : out *
+NOTE PINS outFlagIterB0 : 21 : out *
+NOTE PINS outFlagMP0 : 23 : out *
+NOTE PINS outFlagIterA0 : 19 : out *
+NOTE PINS outFlagAC120 : 27 : out *
+NOTE PINS outFlagAC80 : 32 : out *
+NOTE PINS outFlagIter120 : 13 : out *
+NOTE PINS outFlagI120 : 5 : inout *
+NOTE PINS enable0 : 86 : in *
+NOTE PINS reset0 : 85 : in *
+NOTE PINS inData0[7] : 92 : in *
+NOTE PINS inData0[6] : 91 : in *
+NOTE PINS inData0[5] : 69 : in *
+NOTE PINS inData0[4] : 68 : in *
+NOTE PINS inData0[3] : 62 : in *
+NOTE PINS inData0[2] : 61 : in *
+NOTE PINS inData0[1] : 58 : in *
+NOTE PINS inData0[0] : 57 : in *
+NOTE PINS cdiv01[4] : 49 : in *
+NOTE PINS cdiv01[3] : 45 : in *
+NOTE PINS cdiv01[2] : 44 : in *
+NOTE PINS cdiv01[1] : 41 : in *
+NOTE PINS cdiv01[0] : 40 : in *
+NOTE PINS cdiv00[4] : 47 : in *
+NOTE PINS cdiv00[3] : 43 : in *
+NOTE PINS cdiv00[2] : 42 : in *
+NOTE PINS cdiv00[1] : 39 : in *
+NOTE PINS clk01 : 4 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

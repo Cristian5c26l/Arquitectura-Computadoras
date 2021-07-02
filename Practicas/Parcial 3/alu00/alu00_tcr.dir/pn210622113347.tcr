@@ -1,0 +1,27 @@
+#Start recording tcl command: 6/22/2021 09:19:53
+#Project Location: C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00; Project name: alu00
+prj_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu00.ldf"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/xora00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/nanda00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/nora00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/xnora00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/nota00.vhdl"
+prj_src add "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/buffera00.vhdl"
+prj_run Export -impl alu0 -task Jedecgen
+prj_run Export -impl alu0 -task Jedecgen
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/alu0.xcf"
+prj_src add -exclude "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/alu0.xcf"
+prj_src enable "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/alu0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/alu0.xcf"
+pgr_project close
+prj_run Export -impl alu0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/alu0.xcf"
+pgr_program run
+pgr_project close
+prj_run Export -impl alu0 -task Jedecgen
+pgr_project open "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/alu0.xcf"
+pgr_program run
+pgr_project save "C:/Users/crist/Desktop/Semestre20212/Arquitectura de computadoras/Parcial 3/Practicas/alu00/alu0/alu0.xcf"
+pgr_project close
+#Stop recording: 6/22/2021 11:33:47

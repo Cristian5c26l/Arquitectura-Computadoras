@@ -1,0 +1,153 @@
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\bcd00.vhdl":10:7:10:11|Synthesizing work.bcd00.bcd0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\mux00.vhdl":10:7:10:11|Synthesizing work.mux00.mux0.
+Post processing for work.mux00.mux0
+Running optimization stage 1 on mux00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\coderNibbles00.vhdl":10:7:10:20|Synthesizing work.codernibbles00.codernibbles0.
+Post processing for work.codernibbles00.codernibbles0
+Running optimization stage 1 on coderNibbles00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\contring00.vhdl":10:7:10:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+Running optimization stage 1 on contring00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl":10:7:10:15|Synthesizing work.progmem00.progmem0.
+@W: CG296 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl":31:8:31:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl":33:5:33:9|Referenced variable clkpm is not in sensitivity list.
+Post processing for work.progmem00.progmem0
+Running optimization stage 1 on progMem00 .......
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl":33:1:33:2|Register bit outcodePM(3) is always 0.
+@W: CL260 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl":33:1:33:2|Pruning register bit 3 of outcodePM(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\checkCode00.vhdl":8:7:8:17|Synthesizing work.checkcode00.checkcode0.
+Post processing for work.checkcode00.checkcode0
+Running optimization stage 1 on checkCode00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\pc00.vhdl":10:7:10:10|Synthesizing work.pc00.pc0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\pc00.vhdl":43:4:43:8|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\pc00.vhdl":52:6:52:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\pc00.vhdl":76:4:76:8|Removing redundant assignment.
+Post processing for work.pc00.pc0
+Running optimization stage 1 on pc00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\uc00.vhdl":6:7:6:10|Synthesizing work.uc00.uc0.
+Post processing for work.uc00.uc0
+Running optimization stage 1 on uc00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\contIter00.vhdl":10:7:10:16|Synthesizing work.contiter00.contiter0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\contIter00.vhdl":42:7:42:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\contIter00.vhdl":63:7:63:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\contIter00.vhdl":69:7:69:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\contIter00.vhdl":76:7:76:17|Removing redundant assignment.
+Post processing for work.contiter00.contiter0
+Running optimization stage 1 on contIter00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\ac1200.vhdl":8:7:8:12|Synthesizing work.ac1200.ac120.
+Post processing for work.ac1200.ac120
+Running optimization stage 1 on ac1200 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\ac800.vhdl":8:7:8:11|Synthesizing work.ac800.ac80.
+Post processing for work.ac800.ac80
+Running optimization stage 1 on ac800 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl":8:7:8:15|Synthesizing work.shift1200.shift120.
+Post processing for work.shift1200.shift120
+Running optimization stage 1 on shift1200 .......
+@W: CL169 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl":23:4:23:5|Pruning unused register outFlags12_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl":8:7:8:14|Synthesizing work.shift800.shift80.
+Post processing for work.shift800.shift80
+Running optimization stage 1 on shift800 .......
+@W: CL169 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl":23:4:23:5|Pruning unused register outFlags8_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\compadd00.vhdl":10:7:10:15|Synthesizing work.compadd00.compadd0.
+Post processing for work.compadd00.compadd0
+Running optimization stage 1 on compadd00 .......
+@W: CL169 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\compadd00.vhdl":28:4:28:5|Pruning unused register outFlagAC12ca_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl":8:7:8:12|Synthesizing work.sust00.sust0.
+Post processing for work.sust00.sust0
+Running optimization stage 1 on sust00 .......
+@W: CL169 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl":26:4:26:5|Pruning unused register outFlagAC12su_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\loadData00.vhdl":10:7:10:16|Synthesizing work.loaddata00.loaddata0.
+Post processing for work.loaddata00.loaddata0
+Running optimization stage 1 on loadData00 .......
+@W: CL169 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\loadData00.vhdl":25:6:25:7|Pruning unused register outFlagLD_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":10:7:10:12|Synthesizing work.init00.init0.
+Post processing for work.init00.init0
+Running optimization stage 1 on init00 .......
+@W: CL169 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Pruning unused register outFlag8init_cl_8. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Pruning unused register outFlag12init_cl_1. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(11) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(10) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(9) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(8) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(7) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(6) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(5) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(4) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(3) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(2) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(1) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC12init(0) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC8init(7) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC8init(6) is always 0.
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":27:6:27:7|Register bit outAC8init(5) is always 0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":8:7:8:11|Synthesizing work.div01.div0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\div01.vhdl":100:6:100:11|Removing redundant assignment.
+Post processing for work.div01.div0
+Running optimization stage 1 on div01 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\div00.vhdl":100:6:100:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.bcd00.bcd0
+Running optimization stage 1 on bcd00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on div01 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on init00 .......
+@W: CL177 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":28:13:28:31|Sharing sequential element outFlag12init_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\init00.vhdl":28:13:28:31|Sharing sequential element outFlag12init. Add a syn_preserve attribute to the element to prevent sharing.
+Running optimization stage 2 on loadData00 .......
+Running optimization stage 2 on sust00 .......
+@W: CL246 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl":12:4:12:10|Input port bits 6 to 0 of inac8su(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\sust00.vhdl":13:4:13:11|Input port bit 0 of inac12su(11 downto 0) is unused 
+Running optimization stage 2 on compadd00 .......
+Running optimization stage 2 on shift800 .......
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl":23:4:23:5|Register bit outACs8(0) is always 0.
+@W: CL247 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift800.vhdl":12:4:12:9|Input port bit 7 of inacs8(7 downto 0) is unused 
+Running optimization stage 2 on shift1200 .......
+@N: CL189 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl":23:4:23:5|Register bit outACs12(0) is always 0.
+@W: CL247 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\shift1200.vhdl":12:4:12:10|Input port bit 11 of inacs12(11 downto 0) is unused 
+Running optimization stage 2 on ac800 .......
+Running optimization stage 2 on ac1200 .......
+Running optimization stage 2 on contIter00 .......
+Running optimization stage 2 on uc00 .......
+@N: CL159 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\uc00.vhdl":7:7:7:11|Input clkuc is unused.
+Running optimization stage 2 on pc00 .......
+Running optimization stage 2 on checkCode00 .......
+Running optimization stage 2 on progMem00 .......
+@N: CL159 :"C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\source\progMem00.vhdl":13:1:13:7|Input resetPM is unused.
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coderNibbles00 .......
+Running optimization stage 2 on mux00 .......
+Running optimization stage 2 on bcd00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\crist\Desktop\Semestre20212\Arquitectura de computadoras\Parcial 3\Practicas\bcd00\bcd0\synwork\layer0.rt.csv
+
